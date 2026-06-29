@@ -1,21 +1,33 @@
-//
-//  ContentView.swift
-//  aptisv2
-//
-//  Created by Phan Ba Du on 29/6/26.
-//
-
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        TabView {
+            ListeningTabView()
+            .tabItem {
+                Label("Listening", systemImage: "ear")
+            }
+
+            ReadingTabView()
+            .tabItem {
+                Label("Reading", systemImage: "book.closed")
+            }
+
+            WritingTabView()
+            .tabItem {
+                Label("Writing", systemImage: "pencil")
+            }
+
+            SpeakingTabView()
+            .tabItem {
+                Label("Speaking", systemImage: "mic")
+            }
+
+            AnswersTabView()
+            .tabItem {
+                Label("Answers", systemImage: "checkmark.circle")
+            }
         }
-        .padding()
     }
 }
 
