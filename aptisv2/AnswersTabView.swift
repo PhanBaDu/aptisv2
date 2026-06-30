@@ -29,7 +29,14 @@ struct AnswersTabView: View {
                 ScrollView {
                     LazyVGrid(columns: columns, spacing: 12) {
                         ForEach(items, id: \.self) { item in
-                            AnswerCard(title: item)
+                            if item == "Reading" {
+                                NavigationLink(destination: ReadingAnswersListView()) {
+                                    AnswerCard(title: item)
+                                }
+                                .buttonStyle(.plain)
+                            } else {
+                                AnswerCard(title: item)
+                            }
                         }
                     }
                     .padding()
