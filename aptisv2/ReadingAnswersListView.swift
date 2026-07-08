@@ -9,10 +9,11 @@ struct ReadingAnswersListView: View {
 
     var body: some View {
         ZStack {
-            ReadingLiquidBackground()
+            Color.gray.opacity(0.16)
+                .ignoresSafeArea()
 
             ScrollView {
-                GlassEffectContainer(spacing: 12) {
+                VStack(spacing: 12) {
                     LazyVGrid(columns: columns, spacing: 12) {
                         ForEach(lessons, id: \.self) { lesson in
                             NavigationLink {
@@ -55,10 +56,10 @@ private struct ReadingAnswerCard: View {
         }
         .frame(maxWidth: .infinity, minHeight: 132, alignment: .leading)
         .padding()
-        .contentShape(LiquidGlass.cardShape)
-        .glassEffect(
-            LiquidGlass.glass(.blue.opacity(0.15), interactive: true),
-            in: LiquidGlass.cardShape
+        .background(.white, in: RoundedRectangle(cornerRadius: 20, style: .continuous))
+        .overlay(
+            RoundedRectangle(cornerRadius: 20, style: .continuous)
+                .strokeBorder(.gray.opacity(0.12), lineWidth: 1)
         )
     }
 }

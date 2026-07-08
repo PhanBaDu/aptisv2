@@ -28,7 +28,8 @@ struct ReadingAnswerDetailView: View {
     
     var body: some View {
         ZStack {
-            ReadingLiquidBackground()
+            Color.gray.opacity(0.16)
+                .ignoresSafeArea()
             
             ScrollView {
                 VStack(spacing: 24) {
@@ -143,12 +144,14 @@ struct ReadingAnswerDetailView: View {
         VStack(alignment: .leading, spacing: 16) {
             ReadingSectionLabel(title: title)
             
-            GlassEffectContainer(spacing: 0) {
-                content()
-                    .padding()
-                    .frame(maxWidth: .infinity, alignment: .leading)
-                    .glassEffect(LiquidGlass.glass(interactive: false), in: LiquidGlass.cardShape)
-            }
+            content()
+                .padding()
+                .frame(maxWidth: .infinity, alignment: .leading)
+                .background(.white, in: RoundedRectangle(cornerRadius: 24, style: .continuous))
+                .overlay(
+                    RoundedRectangle(cornerRadius: 24, style: .continuous)
+                        .strokeBorder(.gray.opacity(0.12), lineWidth: 1)
+                )
         }
     }
 }

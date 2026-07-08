@@ -91,7 +91,11 @@ struct ReadingContentCard<Content: View>: View {
         content()
             .padding()
             .frame(maxWidth: .infinity, alignment: .leading)
-            .glassEffect(.clear, in: LiquidGlass.cardShape)
+            .background(.white, in: RoundedRectangle(cornerRadius: 16, style: .continuous))
+            .overlay(
+                RoundedRectangle(cornerRadius: 16, style: .continuous)
+                    .strokeBorder(.gray.opacity(0.12), lineWidth: 1)
+            )
     }
 }
 
@@ -110,9 +114,10 @@ struct ReadingGlassRow<Content: View>: View {
         content()
             .padding()
             .frame(maxWidth: .infinity, alignment: .leading)
-            .glassEffect(
-                LiquidGlass.glass(tint, interactive: interactive),
-                in: LiquidGlass.rowShape
+            .background(tint ?? .white, in: RoundedRectangle(cornerRadius: 12, style: .continuous))
+            .overlay(
+                RoundedRectangle(cornerRadius: 12, style: .continuous)
+                    .strokeBorder(.gray.opacity(0.12), lineWidth: 1)
             )
     }
 }
@@ -126,11 +131,7 @@ struct ReadingGlassChip<Content: View>: View {
             .padding(.horizontal, 14)
             .padding(.vertical, 10)
             .frame(minWidth: 52, minHeight: 36)
-            .contentShape(Capsule())
-            .glassEffect(
-                LiquidGlass.glass(tint, interactive: true),
-                in: LiquidGlass.buttonShape
-            )
+            .background(tint ?? Color.gray.opacity(0.1), in: Capsule())
     }
 }
 
@@ -154,11 +155,8 @@ struct ReadingGlassButton: View {
             .frame(maxWidth: .infinity)
             .frame(height: 54)
             .padding(.horizontal, 24)
-            .contentShape(Capsule())
-            .glassEffect(
-                LiquidGlass.glass(tint, interactive: true),
-                in: LiquidGlass.buttonShape
-            )
+            .background(tint.opacity(0.15), in: Capsule())
+            .foregroundStyle(tint)
         }
         .buttonStyle(.plain)
         .opacity(isEnabled ? 1 : 0.45)
@@ -171,20 +169,16 @@ struct ReadingProgressDots: View {
     let total: Int
 
     var body: some View {
-        GlassEffectContainer(spacing: 8) {
-            HStack(spacing: 8) {
-                ForEach(1...total, id: \.self) { index in
-                    Circle()
-                        .frame(width: index <= current ? 9 : 7, height: index <= current ? 9 : 7)
-                        .glassEffect(
-                            index <= current
-                                ? LiquidGlass.glass(.blue)
-                                : .regular,
-                            in: .circle
-                        )
-                }
+        HStack(spacing: 8) {
+            ForEach(1...total, id: \.self) { index in
+                Circle()
+                    .fill(index <= current ? Color.blue : Color.gray.opacity(0.3))
+                    .frame(width: index <= current ? 9 : 7, height: index <= current ? 9 : 7)
             }
         }
+        .padding(.horizontal, 12)
+        .padding(.vertical, 8)
+        .background(.white, in: Capsule())
     }
 }
 

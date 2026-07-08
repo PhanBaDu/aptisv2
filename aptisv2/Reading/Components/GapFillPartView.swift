@@ -1,13 +1,5 @@
 import SwiftUI
 
-private struct GapAnchorKey: PreferenceKey {
-    static var defaultValue: [Int: Anchor<CGRect>] = [:]
-
-    static func reduce(value: inout [Int: Anchor<CGRect>], nextValue: () -> [Int: Anchor<CGRect>]) {
-        value.merge(nextValue(), uniquingKeysWith: { $1 })
-    }
-}
-
 struct GapFillPartView: View {
     let exercise: GapFillExercise
     let onPass: () -> Void
@@ -15,7 +7,6 @@ struct GapFillPartView: View {
     @State private var selections: [Int: String] = [:]
     @State private var checkState: AnswerCheckState = .idle
     @State private var resetToken = 0
-    @State private var presentedGapID: Int?
 
     private var gaps: [GapFillItem] { exercise.gaps }
 
@@ -40,54 +31,6 @@ struct GapFillPartView: View {
                 onPass: onPass,
                 onRetry: resetAnswers
             )
-        }
-        .overlayPreferenceValue(GapAnchorKey.self) { anchors in
-            gapOptionsOverlay(anchors: anchors)
-        }
-        .onChange(of: resetToken) { _, _ in
-            presentedGapID = nil
-        }
-        .onChange(of: checkState) { _, _ in
-            presentedGapID = nil
-        }
-    }
-
-    @ViewBuilder
-    private func gapOptionsOverlay(anchors: [Int: Anchor<CGRect>]) -> some View {
-        if let gapID = presentedGapID,
-           let gap = gaps.first(where: { $0.id == gapID }),
-           let chipAnchor = anchors[gapID] {
-            GeometryReader { geometry in
-                let chipFrame = geometry[chipAnchor]
-                let menuWidth: CGFloat = 168
-                let menuHeight = CGFloat(gap.options.count) * 50 + 24
-                let x = min(
-                    max(chipFrame.midX, menuWidth / 2 + 16),
-                    geometry.size.width - menuWidth / 2 - 16
-                )
-                let y = chipFrame.maxY + menuHeight / 2 + 12
-
-                ZStack {
-                    Color.black.opacity(0.08)
-                        .ignoresSafeArea()
-                        .onTapGesture { presentedGapID = nil }
-
-                    GapOptionsPopover(
-                        gap: gap,
-                        selection: selections[gapID],
-                        onSelect: { word in
-                            selections[gapID] = word
-                            presentedGapID = nil
-                        }
-                    )
-                    .frame(width: menuWidth)
-                    .position(x: x, y: y)
-                    .shadow(color: .black.opacity(0.12), radius: 16, y: 8)
-                }
-            }
-            .ignoresSafeArea()
-            .zIndex(1000)
-            .transition(.opacity.combined(with: .scale(scale: 0.96, anchor: .top)))
         }
     }
 
@@ -115,8 +58,7 @@ struct GapFillPartView: View {
                     gap: gap,
                     selection: binding(for: gapID),
                     checkState: checkState,
-                    isCorrect: gap.correctAnswer == selections[gapID],
-                    onPresent: { presentedGapID = gapID }
+                    isCorrect: gap.correctAnswer == selections[gapID]
                 )
             }
             Text(suffix)
@@ -131,7 +73,6 @@ struct GapFillPartView: View {
     }
 
     private func checkAnswer() {
-        presentedGapID = nil
         let allCorrect = gaps.allSatisfy { selections[$0.id] == $0.correctAnswer }
         checkState = allCorrect ? .correct : .incorrect
     }
@@ -159,35 +100,37 @@ private struct GapChip: View {
     @Binding var selection: String?
     let checkState: AnswerCheckState
     let isCorrect: Bool
-    let onPresent: () -> Void
 
     var body: some View {
-        chipLabel
-            .anchorPreference(key: GapAnchorKey.self, value: .bounds) { anchor in
-                [gap.id: anchor]
+        Menu {
+            ForEach(gap.options, id: \.self) { option in
+                Button {
+                    selection = option
+                } label: {
+                    Text(option)
+                    if selection == option {
+                        Image(systemName: "checkmark")
+                    }
+                }
             }
-            .onTapGesture {
-                guard checkState == .idle else { return }
-                onPresent()
-            }
+        } label: {
+            Text(selection ?? "______")
+                .font(.body.bold())
+                .foregroundStyle(chipForeground)
+                .padding(.horizontal, 16)
+                .padding(.vertical, 10)
+                .frame(minWidth: 56, minHeight: 44)
+                .contentShape(Capsule())
+                .background(chipBackground, in: Capsule())
+        }
+        .disabled(checkState != .idle)
     }
 
-    private var chipLabel: some View {
-        Text(selection ?? "______")
-            .font(.body.bold())
-            .foregroundStyle(chipForeground)
-            .padding(.horizontal, 16)
-            .padding(.vertical, 10)
-            .frame(minWidth: 56, minHeight: 44)
-            .contentShape(Capsule())
-            .glassEffect(
-                LiquidGlass.glass(chipTint, interactive: false),
-                in: LiquidGlass.buttonShape
-            )
-    }
-
-    private var chipTint: Color? {
-        AnswerFeedbackTint.forCheckState(checkState, isCorrect: isCorrect)
+    private var chipBackground: Color {
+        if let tint = AnswerFeedbackTint.forCheckState(checkState, isCorrect: isCorrect) {
+            return tint.opacity(0.2)
+        }
+        return Color.gray.opacity(0.1)
     }
 
     private var chipForeground: Color {
@@ -199,47 +142,5 @@ private struct GapChip: View {
         case .incorrect:
             return isCorrect ? .green : .red
         }
-    }
-}
-
-private struct GapOptionsPopover: View {
-    let gap: GapFillItem
-    let selection: String?
-    let onSelect: (String) -> Void
-
-    var body: some View {
-        GlassEffectContainer(spacing: 6) {
-            VStack(spacing: 6) {
-                ForEach(gap.options, id: \.self) { option in
-                    Button {
-                        onSelect(option)
-                    } label: {
-                        HStack {
-                            Text(option)
-                                .font(.body.weight(.medium))
-                            Spacer(minLength: 8)
-                            if selection == option {
-                                Image(systemName: "checkmark")
-                                    .font(.body.weight(.semibold))
-                            }
-                        }
-                        .padding(.horizontal, 16)
-                        .padding(.vertical, 10)
-                        .frame(maxWidth: .infinity, minHeight: 44)
-                        .contentShape(Capsule())
-                        .glassEffect(
-                            LiquidGlass.glass(
-                                selection == option ? .blue : nil,
-                                interactive: false
-                            ),
-                            in: LiquidGlass.buttonShape
-                        )
-                    }
-                    .buttonStyle(.plain)
-                }
-            }
-            .padding(8)
-        }
-        .glassEffect(.regular, in: RoundedRectangle(cornerRadius: 20, style: .continuous))
     }
 }

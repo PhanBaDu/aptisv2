@@ -1,14 +1,15 @@
 import SwiftUI
 
-struct ReadingFlowView: View {
-    let examIndex: Int
+struct ReadingPartPracticeFlowView: View {
+    let targetPartIndex: Int // 0 to 4
     
-    @State private var currentPartIndex: Int = 0
+    @State private var currentExamIndex: Int = 1
     @State private var isCompleted = false
     
-    private let partsCount = 5
+    private let totalExams = 5
+    
     private var examData: ReadingExamData {
-        ReadingExamData.forExam(examIndex)
+        ReadingExamData.forExam(currentExamIndex)
     }
 
     var body: some View {
@@ -17,18 +18,19 @@ struct ReadingFlowView: View {
                 .ignoresSafeArea()
 
             if isCompleted {
-                ReadingCompletionView(examIndex: examIndex)
+                ReadingPartCompletionView(partName: "Part \(targetPartIndex + 1)")
             } else {
                 partContent
+                    .id(currentExamIndex) // Force refresh when exam changes
             }
         }
-        .navigationTitle("Reading \(String(format: "%02d", examIndex))")
+        .navigationTitle("Luyện tập Part \(targetPartIndex + 1)")
         .navigationBarTitleDisplayMode(.inline)
         .hidesTabBarWhenPushed()
         .toolbar {
             if !isCompleted {
                 ToolbarItem(placement: .principal) {
-                    ReadingProgressDots(current: currentPartIndex + 1, total: partsCount)
+                    ReadingProgressDots(current: currentExamIndex, total: totalExams)
                 }
             }
         }
@@ -36,7 +38,7 @@ struct ReadingFlowView: View {
 
     @ViewBuilder
     private var partContent: some View {
-        switch currentPartIndex {
+        switch targetPartIndex {
         case 0:
             GapFillPartView(
                 exercise: examData.gapFill,
@@ -66,7 +68,7 @@ struct ReadingFlowView: View {
         case 4:
             HeadingMatchingPartView(
                 exercise: examData.headingMatching,
-                onPass: { finishReading() }
+                onPass: { advance() }
             )
             
         default:
@@ -75,24 +77,24 @@ struct ReadingFlowView: View {
     }
 
     private func advance() {
-        if currentPartIndex < partsCount - 1 {
+        if currentExamIndex < totalExams {
             withAnimation(.easeInOut(duration: 0.25)) {
-                currentPartIndex += 1
+                currentExamIndex += 1
             }
         } else {
-            finishReading()
+            finishPractice()
         }
     }
 
-    private func finishReading() {
+    private func finishPractice() {
         withAnimation {
             isCompleted = true
         }
     }
 }
 
-struct ReadingCompletionView: View {
-    let examIndex: Int
+struct ReadingPartCompletionView: View {
+    let partName: String
     
     var body: some View {
         VStack(spacing: 16) {
@@ -100,10 +102,10 @@ struct ReadingCompletionView: View {
                 .font(.system(size: 56))
                 .foregroundStyle(.primary)
 
-            Text("Hoàn thành Reading \(String(format: "%02d", examIndex))!")
+            Text("Hoàn thành \(partName)!")
                 .font(.title2.bold())
 
-            Text("Bạn đã làm xong tất cả các part.")
+            Text("Bạn đã luyện tập xong tất cả các bộ đề.")
                 .font(.subheadline)
                 .foregroundStyle(.secondary)
         }

@@ -41,7 +41,7 @@ struct PersonMatchingPartView: View {
         VStack(alignment: .leading, spacing: 10) {
             ReadingSectionLabel(title: "Bài đọc")
 
-            GlassEffectContainer(spacing: 10) {
+            VStack(spacing: 10) {
                 VStack(spacing: 10) {
                     ForEach(people) { person in
                         DisclosureGroup(
@@ -59,9 +59,10 @@ struct PersonMatchingPartView: View {
                                 .font(.headline)
                         }
                         .padding()
-                        .glassEffect(
-                            LiquidGlass.glass(interactive: true),
-                            in: LiquidGlass.rowShape
+                        .background(.white, in: RoundedRectangle(cornerRadius: 16, style: .continuous))
+                        .overlay(
+                            RoundedRectangle(cornerRadius: 16, style: .continuous)
+                                .strokeBorder(.gray.opacity(0.12), lineWidth: 1)
                         )
                     }
                 }
@@ -73,7 +74,7 @@ struct PersonMatchingPartView: View {
         VStack(alignment: .leading, spacing: 12) {
             ReadingSectionLabel(title: "Câu hỏi")
 
-            GlassEffectContainer(spacing: 12) {
+            VStack(spacing: 12) {
                 VStack(spacing: 12) {
                     ForEach(questions) { question in
                         questionRow(question)
@@ -90,7 +91,7 @@ struct PersonMatchingPartView: View {
             Text("\(question.id). \(question.question)")
                 .font(.body.weight(.medium))
 
-            GlassEffectContainer(spacing: 8) {
+            VStack(spacing: 8) {
                 HStack(spacing: 8) {
                     ForEach(exercise.personNames, id: \.self) { name in
                         personButton(name: name, question: question)
@@ -99,12 +100,10 @@ struct PersonMatchingPartView: View {
             }
         }
         .padding()
-        .glassEffect(
-            LiquidGlass.glass(
-                checkState == .idle ? nil : (questionCorrect ? .green : .red),
-                interactive: false
-            ),
-            in: LiquidGlass.rowShape
+        .background((checkState == .idle ? Color.white : (questionCorrect ? Color.green.opacity(0.1) : Color.red.opacity(0.1))), in: RoundedRectangle(cornerRadius: 16, style: .continuous))
+        .overlay(
+            RoundedRectangle(cornerRadius: 16, style: .continuous)
+                .strokeBorder((checkState == .idle ? .gray.opacity(0.12) : (questionCorrect ? Color.green : Color.red)), lineWidth: 1)
         )
     }
 
@@ -122,13 +121,7 @@ struct PersonMatchingPartView: View {
                 .minimumScaleFactor(0.8)
                 .frame(maxWidth: .infinity)
                 .padding(.vertical, 10)
-                .glassEffect(
-                    LiquidGlass.glass(
-                        buttonTint(isSelected: isSelected, isCorrectAnswer: isCorrectAnswer),
-                        interactive: checkState == .idle
-                    ),
-                    in: LiquidGlass.buttonShape
-                )
+                .background(buttonTint(isSelected: isSelected, isCorrectAnswer: isCorrectAnswer) ?? Color.gray.opacity(0.1), in: Capsule())
         }
         .buttonStyle(.plain)
         .disabled(checkState != .idle && !isSelected)

@@ -48,7 +48,7 @@ struct HeadingMatchingPartView: View {
         VStack(alignment: .leading, spacing: 8) {
             ReadingSectionLabel(title: "Đề")
 
-            GlassEffectContainer(spacing: 10) {
+            VStack(spacing: 10) {
                 VStack(spacing: 10) {
                     ReadingGlassRow(tint: .blue.opacity(0.35), interactive: false) {
                         VStack(alignment: .leading, spacing: 12) {
@@ -88,7 +88,7 @@ struct HeadingMatchingPartView: View {
                     .foregroundStyle(.secondary)
             }
 
-            GlassEffectContainer(spacing: 10) {
+            VStack(spacing: 10) {
                 VStack(spacing: 10) {
                     ForEach(Array(answerOrder.enumerated()), id: \.offset) { position, headingID in
                         if let heading = headings.first(where: { $0.id == headingID }) {
@@ -112,7 +112,7 @@ struct HeadingMatchingPartView: View {
         VStack(alignment: .leading, spacing: 8) {
             ReadingSectionLabel(title: "Khu vực chọn đáp án")
 
-            GlassEffectContainer(spacing: 10) {
+            VStack(spacing: 10) {
                 VStack(spacing: 10) {
                     ForEach(availableHeadings) { heading in
                         Button {
@@ -132,9 +132,10 @@ struct HeadingMatchingPartView: View {
                             }
                             .padding()
                             .frame(maxWidth: .infinity, alignment: .leading)
-                            .glassEffect(
-                                LiquidGlass.glass(interactive: true),
-                                in: LiquidGlass.rowShape
+                            .background(.white, in: RoundedRectangle(cornerRadius: 16, style: .continuous))
+                            .overlay(
+                                RoundedRectangle(cornerRadius: 16, style: .continuous)
+                                    .strokeBorder(.gray.opacity(0.12), lineWidth: 1)
                             )
                         }
                         .buttonStyle(.plain)
@@ -166,12 +167,10 @@ struct HeadingMatchingPartView: View {
             }
             .padding()
             .frame(maxWidth: .infinity, alignment: .leading)
-            .glassEffect(
-                LiquidGlass.glass(
-                    AnswerFeedbackTint.forCheckState(checkState, isCorrect: isCorrect),
-                    interactive: checkState == .idle
-                ),
-                in: LiquidGlass.rowShape
+            .background(AnswerFeedbackTint.forCheckState(checkState, isCorrect: isCorrect)?.opacity(0.1) ?? .white, in: RoundedRectangle(cornerRadius: 16, style: .continuous))
+            .overlay(
+                RoundedRectangle(cornerRadius: 16, style: .continuous)
+                    .strokeBorder(AnswerFeedbackTint.forCheckState(checkState, isCorrect: isCorrect) ?? .gray.opacity(0.12), lineWidth: 1)
             )
         }
         .buttonStyle(.plain)
@@ -188,7 +187,11 @@ struct HeadingMatchingPartView: View {
         }
         .padding()
         .frame(maxWidth: .infinity, alignment: .leading)
-        .glassEffect(.clear, in: LiquidGlass.rowShape)
+        .background(Color.gray.opacity(0.05), in: RoundedRectangle(cornerRadius: 16, style: .continuous))
+        .overlay(
+            RoundedRectangle(cornerRadius: 16, style: .continuous)
+                .strokeBorder(Color.gray.opacity(0.2), style: StrokeStyle(lineWidth: 1, dash: [4]))
+        )
     }
 
     private func positionColor(isCorrect: Bool) -> Color {
