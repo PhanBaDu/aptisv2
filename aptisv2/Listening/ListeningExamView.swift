@@ -5,12 +5,6 @@ struct ListeningExamView: View {
 
     @State private var selections: [String: String] = [:]
     @State private var hasChecked = false
-    @State private var q15FirstSpeaker: ListeningFirstSpeaker
-
-    init(exam: ListeningExam) {
-        self.exam = exam
-        _q15FirstSpeaker = State(initialValue: exam.q15.firstSpeaker)
-    }
 
     private var answeredCount: Int {
         selections.values.filter { !$0.isEmpty }.count
@@ -34,7 +28,7 @@ struct ListeningExamView: View {
             }
         }
         let opinionCorrect = exam.q15.answers.indices.reduce(into: 0) { result, index in
-            if selections[opinionKey(index)] == q15Answer(at: index) {
+            if selections[opinionKey(index)] == exam.q15.answers[index] {
                 result += 1
             }
         }
@@ -141,19 +135,22 @@ struct ListeningExamView: View {
                 .font(.headline)
                 .foregroundStyle(.blue)
 
+            Text(exam.q15.instruction)
+                .font(.body.weight(.semibold))
+                .fixedSize(horizontal: false, vertical: true)
+
             q15TopicBanner
 
-            Text("Chọn thứ tự người nói đúng với file nghe. Đáp án Man/Woman sẽ tự động đảo khi bạn đổi lựa chọn.")
+            Label(
+                exam.q15.firstSpeaker.title,
+                systemImage: "person.wave.2.fill"
+            )
                 .font(.subheadline)
-                .foregroundStyle(.secondary)
-
-            Picker("Thứ tự người nói", selection: $q15FirstSpeaker) {
-                ForEach(ListeningFirstSpeaker.allCases) { speaker in
-                    Text(speaker.title).tag(speaker)
-                }
-            }
-            .pickerStyle(.segmented)
-            .disabled(hasChecked)
+                .fontWeight(.semibold)
+                .foregroundStyle(.blue)
+                .padding(.horizontal, 12)
+                .padding(.vertical, 8)
+                .background(Color.blue.opacity(0.10), in: Capsule())
 
             ForEach(exam.q15.statements.indices, id: \.self) { index in
                 VStack(alignment: .leading, spacing: 8) {
@@ -164,7 +161,7 @@ struct ListeningExamView: View {
                         label: "Chọn ý kiến",
                         key: opinionKey(index),
                         options: ["Man", "Woman", "Both"],
-                        answer: q15Answer(at: index)
+                        answer: exam.q15.answers[index]
                     )
                 }
                 .padding(.vertical, 4)
@@ -417,19 +414,6 @@ struct ListeningExamView: View {
     private func mcKey(_ id: String) -> String { "mc-\(id)" }
     private func speakerKey(_ speaker: String) -> String { "q14-\(speaker)" }
     private func opinionKey(_ index: Int) -> String { "q15-\(index)" }
-
-    private func q15Answer(at index: Int) -> String {
-        let original = exam.q15.answers[index]
-        guard q15FirstSpeaker != exam.q15.firstSpeaker else {
-            return original
-        }
-
-        switch original {
-        case "Man": return "Woman"
-        case "Woman": return "Man"
-        default: return original
-        }
-    }
 
     private func romanNumeral(_ value: Int) -> String {
         ["i", "ii", "iii", "iv", "v", "vi"][value - 1]

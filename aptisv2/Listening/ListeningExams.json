@@ -193,6 +193,7 @@
     },
     "q15": {
       "topic": "beauty",
+      "instruction": "Listen to two friends discussing the concept of beauty. Read the opinions below and decide whose opinion matches each statement: the man, the woman, or both the man and the woman. You can listen to the discussion twice.",
       "topicVietnamese": "vẻ đẹp",
       "firstSpeaker": "woman",
       "statements": [
@@ -403,6 +404,7 @@
     },
     "q15": {
       "topic": "urban farming",
+      "instruction": "Listen to two experts discussing the concept of urban farming. Read the opinions below and decide whose opinion matches each statement: the man, the woman, or both the man and the woman. You can listen to the discussion twice.",
       "topicVietnamese": "nông nghiệp đô thị",
       "firstSpeaker": "man",
       "statements": [
@@ -613,6 +615,7 @@
     },
     "q15": {
       "topic": "community",
+      "instruction": "Listen to two friends talking about community. Read the opinions below and decide whose opinion matches each statement: the man, the woman, or both the man and the woman. You can listen to the discussion twice.",
       "topicVietnamese": "cộng đồng",
       "firstSpeaker": "woman",
       "statements": [
@@ -823,6 +826,7 @@
     },
     "q15": {
       "topic": "workplace changes",
+      "instruction": "Listen to two colleagues discussing changes in the workplace. Read the opinions below and decide whose opinion matches each statement: the man, the woman, or both the man and the woman. You can listen to the discussion twice.",
       "topicVietnamese": "những thay đổi tại nơi làm việc",
       "firstSpeaker": "woman",
       "statements": [
@@ -1033,6 +1037,7 @@
     },
     "q15": {
       "topic": "actors and auditions",
+      "instruction": "Listen to two film directors discussing actors and auditions. Read the opinions below and decide whose opinion matches each statement: the man, the woman, or both the man and the woman. You can listen to the discussion twice.",
       "topicVietnamese": "diễn viên và các buổi thử vai",
       "firstSpeaker": "man",
       "statements": [
@@ -1243,6 +1248,7 @@
     },
     "q15": {
       "topic": "arts",
+      "instruction": "Listen to two friends discussing ideas about arts. Read the opinions below and decide whose opinion matches each statement: the man, the woman, or both the man and the woman. You can listen to the discussion twice.",
       "topicVietnamese": "nghệ thuật",
       "firstSpeaker": "man",
       "statements": [
@@ -1453,6 +1459,7 @@
     },
     "q15": {
       "topic": "singers and music",
+      "instruction": "Listen to two colleagues discussing singers and music. Read the opinions below and decide whose opinion matches each statement: the man, the woman, or both the man and the woman. You can listen to the discussion twice.",
       "topicVietnamese": "ca sĩ và âm nhạc",
       "firstSpeaker": "man",
       "statements": [
@@ -1663,6 +1670,7 @@
     },
     "q15": {
       "topic": "information and technology",
+      "instruction": "Listen to two friends discussing the concept of information and technology. Read the opinions below and decide whose opinion matches each statement: the man, the woman, or both the man and the woman. You can listen to the discussion twice.",
       "topicVietnamese": "thông tin và công nghệ",
       "firstSpeaker": "woman",
       "statements": [
@@ -1873,6 +1881,7 @@
     },
     "q15": {
       "topic": "politics",
+      "instruction": "Listen to two professors discussing politics. Read the opinions below and decide whose opinion matches each statement: the man, the woman, or both the man and the woman. You can listen to the discussion twice.",
       "topicVietnamese": "chính trị",
       "firstSpeaker": "woman",
       "statements": [
@@ -2083,6 +2092,7 @@
     },
     "q15": {
       "topic": "universities",
+      "instruction": "Listen to two high school teachers discussing universities. Read the opinions below and decide whose opinion matches each statement: the man, the woman, or both the man and the woman. You can listen to the discussion twice.",
       "topicVietnamese": "các trường đại học",
       "firstSpeaker": "woman",
       "statements": [
@@ -2293,6 +2303,7 @@
     },
     "q15": {
       "topic": "internet",
+      "instruction": "Listen to two friends discussing the internet. Read the opinions below and decide whose opinion matches each statement: the man, the woman, or both the man and the woman. You can listen to the discussion twice.",
       "topicVietnamese": "Internet",
       "firstSpeaker": "man",
       "statements": [
@@ -2503,6 +2514,7 @@
     },
     "q15": {
       "topic": "local cultural center",
+      "instruction": "Listen to two friends discussing their experience in a local cultural center. Read the opinions below and decide whose opinion matches each statement: the man, the woman, or both the man and the woman. You can listen to the discussion twice.",
       "topicVietnamese": "trung tâm văn hóa địa phương",
       "firstSpeaker": "man",
       "statements": [

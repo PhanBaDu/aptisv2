@@ -31,6 +31,7 @@ struct ListeningSpeakerQuestion: Codable {
 
 struct ListeningOpinionQuestion: Codable {
     let topic: String
+    let instruction: String
     let topicVietnamese: String
     let firstSpeaker: ListeningFirstSpeaker
     let statements: [String]
