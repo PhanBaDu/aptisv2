@@ -2,11 +2,7 @@ import Foundation
 import SwiftUI
 
 struct ListeningTabView: View {
-    private let lessons = Array(1...20)
-    private let columns = [
-        GridItem(.flexible(), spacing: 12),
-        GridItem(.flexible(), spacing: 12)
-    ]
+    private let exams = ListeningExamStore.exams
 
     var body: some View {
         NavigationStack {
@@ -15,12 +11,17 @@ struct ListeningTabView: View {
                     .ignoresSafeArea()
 
                 ScrollView {
-                    LazyVGrid(columns: columns, spacing: 12) {
-                        ForEach(lessons, id: \.self) { lesson in
-                            PracticeCard(
-                                title: "Listening \(lesson.formattedAsTwoDigits)",
-                                systemImage: "ear"
-                            )
+                    LazyVStack(spacing: 12) {
+                        ForEach(exams) { exam in
+                            NavigationLink {
+                                ListeningExamView(exam: exam)
+                            } label: {
+                                ListeningPracticeCard(
+                                    title: exam.title,
+                                    questionCount: exam.answerCount
+                                )
+                            }
+                            .buttonStyle(.plain)
                         }
                     }
                     .padding()
@@ -31,36 +32,39 @@ struct ListeningTabView: View {
     }
 }
 
-private struct PracticeCard: View {
+private struct ListeningPracticeCard: View {
     let title: String
-    let systemImage: String
+    let questionCount: Int
 
     var body: some View {
-        VStack(alignment: .leading, spacing: 12) {
-            Image(systemName: systemImage)
-                .font(.title2.weight(.semibold))
-                .foregroundStyle(.blue)
-
-            Text(title)
-                .font(.headline)
+        HStack(spacing: 16) {
+            Image(systemName: "ear")
+                .font(.title2.weight(.medium))
                 .foregroundStyle(.primary)
+                .frame(width: 48, height: 48)
+                .background(Color.gray.opacity(0.1), in: Circle())
 
-            Text("Tap to start")
-                .font(.subheadline)
-                .foregroundStyle(.secondary)
+            VStack(alignment: .leading, spacing: 4) {
+                Text(title)
+                    .font(.headline)
+                    .foregroundStyle(.primary)
+
+                Text("\(questionCount) câu trả lời · Tap to start")
+                    .font(.subheadline)
+                    .foregroundStyle(.secondary)
+            }
+
+            Spacer(minLength: 0)
+
+            Image(systemName: "chevron.right")
+                .font(.body.weight(.semibold))
+                .foregroundStyle(.tertiary)
         }
-        .frame(maxWidth: .infinity, minHeight: 132, alignment: .leading)
         .padding()
         .background(.white, in: RoundedRectangle(cornerRadius: 24, style: .continuous))
         .overlay(
             RoundedRectangle(cornerRadius: 24, style: .continuous)
                 .strokeBorder(.gray.opacity(0.12), lineWidth: 1)
         )
-    }
-}
-
-private extension Int {
-    var formattedAsTwoDigits: String {
-        String(format: "%02d", self)
     }
 }
