@@ -75,7 +75,7 @@
       },
       {
         "id": "8",
-        "question": "A group is listening to instructions. Where are they standing?",
+        "question": "A group of people is listening to some instructions. Where are they standing?",
         "options": [
           "A residential area",
           "A university area",
@@ -85,7 +85,7 @@
       },
       {
         "id": "9",
-        "question": "A man is talking to a shopping assistant. What color top does he buy?",
+        "question": "A man is talking to the shopping assistant. What color top does he buy?",
         "options": [
           "Blue",
           "Black",
@@ -95,7 +95,7 @@
       },
       {
         "id": "10",
-        "question": "How is being a writer different from other jobs?",
+        "question": "A woman is talking about her job. How is being a writer different from other jobs?",
         "options": [
           "She earns a high salary",
           "She works irregular hours",
@@ -115,7 +115,7 @@
       },
       {
         "id": "12",
-        "question": "What does the woman do in her free time?",
+        "question": "Listen to two friends talking. What does the woman do in her free time?",
         "options": [
           "Stay at home",
           "Watch TV",
@@ -139,13 +139,13 @@
         "options": [
           "It allows you to be more flexible",
           "It creates pressure and limits creativity",
-          "It only applies to specific situations or people"
+          "It only apply to specific situations or certain types of people"
         ],
         "answer": "It allows you to be more flexible"
       },
       {
         "id": "16.2",
-        "question": "What is the speaker's opinion about goal setting?",
+        "question": "What is the speaker’s opinion about goal setting?",
         "options": [
           "It can lead to confusion and distraction",
           "It requires you to set yourself certain limits",
@@ -157,21 +157,21 @@
         "id": "17.1",
         "question": "What does the producer think about the dialogues in the new show?",
         "options": [
-          "They are perfectly written and engaging",
-          "The dialogue seems unrealistic",
-          "They reflect real-life conversations well"
+          "They are perfectly written and engaging.",
+          "The dialogue seems unrealistic.",
+          "They reflect real-life conversations well."
         ],
-        "answer": "The dialogue seems unrealistic"
+        "answer": "The dialogue seems unrealistic."
       },
       {
         "id": "17.2",
-        "question": "How is industry demand affecting script quality?",
+        "question": "How is the current industry demand affecting the quality of script production?",
         "options": [
-          "It allows more thorough development",
-          "It leads to more innovative ideas",
-          "It is negatively influencing script production"
+          "It is allowing for more thorough script development.",
+          "It is leading to more innovative ideas.",
+          "The new industry demand is negatively influencing script production."
         ],
-        "answer": "It is negatively influencing script production"
+        "answer": "The new industry demand is negatively influencing script production."
       }
     ],
     "q14": {
@@ -216,7 +216,7 @@
     "mc": [
       {
         "id": "1",
-        "question": "How much does a bus ticket cost?",
+        "question": "Lalia is calling her mother. How much does a bus ticket cost?",
         "options": [
           "£1.50",
           "£3.50",
@@ -226,17 +226,17 @@
       },
       {
         "id": "2",
-        "question": "When will Liliana and Maria meet?",
+        "question": "Liliana is calling her friend Maria. When will they meet?",
         "options": [
-          "9 a.m. Saturday",
-          "10 a.m. Sunday",
-          "9 a.m. Sunday"
+          "At 9 a.m. on Saturday",
+          "At 10 a.m. on Sunday",
+          "At 9 a.m. on Sunday"
         ],
-        "answer": "9 a.m. Sunday"
+        "answer": "At 9 a.m. on Sunday"
       },
       {
         "id": "3",
-        "question": "What color is the woman's dress?",
+        "question": "A woman is talking to her friend. What color is her dress?",
         "options": [
           "Blue",
           "Black",
@@ -246,7 +246,7 @@
       },
       {
         "id": "4",
-        "question": "What does her sister drink with lunch?",
+        "question": "A woman is calling her friend. What does her sister drink with lunch?",
         "options": [
           "Coffee",
           "Juice",
@@ -256,7 +256,7 @@
       },
       {
         "id": "5",
-        "question": "What did the man lose?",
+        "question": "A man is calling a shop. What did the man lose?",
         "options": [
           "A wallet",
           "Glasses",
@@ -266,7 +266,7 @@
       },
       {
         "id": "6",
-        "question": "What does Anne need?",
+        "question": "Anne is calling her daughter Sally. What does Anne need?",
         "options": [
           "Milk",
           "Cheese",
@@ -276,7 +276,7 @@
       },
       {
         "id": "7",
-        "question": "What does the woman's brother do after work?",
+        "question": "A woman is calling her brother. What does he do after work?",
         "options": [
           "Visit friends",
           "Go shopping",
@@ -286,7 +286,7 @@
       },
       {
         "id": "8",
-        "question": "What is the man going to do?",
+        "question": "A man is seeking advice on future career. What is he going to do?",
         "options": [
           "Become a teacher",
           "Work in business",
@@ -296,7 +296,7 @@
       },
       {
         "id": "9",
-        "question": "What course is he going to take?",
+        "question": "A man is talking to a woman. What course is he going to take?",
         "options": [
           "Leadership",
           "Management",
@@ -306,7 +306,7 @@
       },
       {
         "id": "10",
-        "question": "What did both friends buy?",
+        "question": "Two friends are talking about shopping. What did they both buy?",
         "options": [
           "Books",
           "Clothes",
@@ -316,7 +316,7 @@
       },
       {
         "id": "11",
-        "question": "What time is the train going to depart?",
+        "question": "Listen to an announcement. What time is the train going to depart?",
         "options": [
           "08:45",
           "10:45",
@@ -326,17 +326,17 @@
       },
       {
         "id": "12",
-        "question": "When does the writer usually write?",
+        "question": "Listen to a writer talking. When does she usually write?",
         "options": [
-          "Morning",
-          "Afternoon",
-          "Evening"
+          "In the morning",
+          "In the afternoon",
+          "In the evening"
         ],
-        "answer": "Afternoon"
+        "answer": "In the afternoon"
       },
       {
         "id": "13",
-        "question": "What feature of the property is not original?",
+        "question": "Listen to a real estate agent. What feature is not original?",
         "options": [
           "Doors",
           "Furniture",
@@ -348,41 +348,41 @@
         "id": "16.1",
         "question": "What does the critic say about the two writers?",
         "options": [
-          "They made references to each other's work",
-          "They both address modern society",
+          "They made references on each other work",
+          "They both have something to say about modern society",
           "They were overlooked by academics"
         ],
-        "answer": "They made references to each other's work"
+        "answer": "They made references on each other work"
       },
       {
         "id": "16.2",
-        "question": "What is similar about the two writers?",
+        "question": "What is the similarity between the two writers?",
         "options": [
-          "Some publications sparked controversy",
-          "Their work does not appeal to younger audiences",
-          "Their meaning is not always easy to identify"
+          "Some of their publications sparked controversy",
+          "Their work is not appealing to younger audience",
+          "The meaning of their work is not always easy to be identified"
         ],
-        "answer": "Their work does not appeal to younger audiences"
+        "answer": "Their work is not appealing to younger audience"
       },
       {
         "id": "17.1",
-        "question": "What does the speaker say about the product advertisement?",
+        "question": "What does the speaker say about the advertisement of the product?",
         "options": [
-          "It makes exaggerated claims",
-          "It gives an additional product for free",
-          "It requires extensive research"
+          "It makes exaggerated claims.",
+          "It allows customers taking an additional product for free.",
+          "It requires extensive research."
         ],
-        "answer": "It gives an additional product for free"
+        "answer": "It allows customers taking an additional product for free."
       },
       {
         "id": "17.2",
-        "question": "What is a challenge when promoting the product?",
+        "question": "What is a challenge when it comes to promoting the product?",
         "options": [
-          "It makes no profit",
-          "It lacks financial resources",
-          "It is too similar to existing products"
+          "It doesn’t make any profits.",
+          "It lacks financial resources.",
+          "It is too similar to many existing products."
         ],
-        "answer": "It is too similar to existing products"
+        "answer": "It is too similar to many existing products."
       }
     ],
     "q14": {
@@ -427,17 +427,17 @@
     "mc": [
       {
         "id": "1",
-        "question": "How much are the eggs?",
+        "question": "A woman is calling her daughter. How much are the eggs?",
         "options": [
-          "£1.50",
-          "£3.50",
-          "£2.50"
+          "one pound fifty",
+          "three pound fifty",
+          "two pound fifty"
         ],
-        "answer": "£1.50"
+        "answer": "one pound fifty"
       },
       {
         "id": "2",
-        "question": "How many new houses will be built?",
+        "question": "Listen to a radio program. How many new houses are going to be built?",
         "options": [
           "2,200",
           "1,800",
@@ -447,17 +447,17 @@
       },
       {
         "id": "3",
-        "question": "How many clients are American?",
+        "question": "Listen to two colleagues talking about a meeting. How many clients are American?",
         "options": [
-          "One",
-          "Three",
-          "Two"
+          "one",
+          "three",
+          "two"
         ],
-        "answer": "One"
+        "answer": "one"
       },
       {
         "id": "4",
-        "question": "What color is Jack's house?",
+        "question": "Jack is calling his friend. What color is Jack's house?",
         "options": [
           "Blue",
           "Red",
@@ -467,133 +467,133 @@
       },
       {
         "id": "5",
-        "question": "What did the girl buy?",
+        "question": "A girl is calling her dad. What did she buy when she was shopping?",
         "options": [
-          "A skirt",
-          "A dress",
-          "A toy"
+          "a skirt",
+          "a dress",
+          "a toy"
         ],
-        "answer": "A dress"
+        "answer": "a dress"
       },
       {
         "id": "6",
-        "question": "Where will Anna and her friend meet?",
+        "question": "Anna is calling her friend. Where will they meet?",
         "options": [
-          "At the park",
-          "At the café",
-          "At the marketplace"
+          "at the park",
+          "at the café",
+          "at the marketplace"
         ],
-        "answer": "At the marketplace"
+        "answer": "at the marketplace"
       },
       {
         "id": "7",
-        "question": "What film did the radio host recommend?",
+        "question": "Listen to a host on the radio talking about film. What film did she recommend?",
         "options": [
-          "An action film",
-          "A romantic film",
-          "A French film"
+          "an action film",
+          "a romantic film",
+          "a French film"
         ],
-        "answer": "An action film"
+        "answer": "an action film"
       },
       {
         "id": "8",
-        "question": "Where does the student live now?",
+        "question": "A student is talking about his accommodation. Where does he live now?",
         "options": [
-          "A small flat",
-          "A student dormitory",
-          "A town hall"
+          "a small flat",
+          "a student dormitory",
+          "a town hall"
         ],
-        "answer": "A town hall"
+        "answer": "a town hall"
       },
       {
         "id": "9",
-        "question": "What did the girl like best about the film?",
+        "question": "A girl is talking about a film. What did she like best about the film?",
         "options": [
-          "Mountain scenes",
-          "Racing scenes",
-          "Fight scenes"
+          "the mountain scenes",
+          "racing scenes",
+          "fight scenes"
         ],
-        "answer": "Mountain scenes"
+        "answer": "the mountain scenes"
       },
       {
         "id": "10",
-        "question": "Where will Sam and his sister meet?",
+        "question": "Sam is calling his sister. Where are they going to meet?",
         "options": [
-          "University",
-          "Station",
-          "Park"
+          "at the university",
+          "at the station",
+          "at the park"
         ],
-        "answer": "Park"
+        "answer": "at the park"
       },
       {
         "id": "11",
-        "question": "Which number buys a computer?",
+        "question": "Listen to a voice message. Which number should be pressed to buy a computer?",
         "options": [
-          "One",
-          "Two",
-          "Three"
+          "one",
+          "two",
+          "three"
         ],
-        "answer": "Three"
+        "answer": "three"
       },
       {
         "id": "12",
-        "question": "How many minutes will he speak?",
+        "question": "Listen to two friends discussing their presentation. How many minutes will he speak for?",
         "options": [
-          "5",
-          "15",
-          "10"
+          "5 minutes",
+          "15 minutes",
+          "10 minutes"
         ],
-        "answer": "15"
+        "answer": "15 minutes"
       },
       {
         "id": "13",
-        "question": "What new school facility will be added?",
+        "question": "Listen to a school principal. What new facility will be added?",
         "options": [
-          "Laboratory",
-          "Performance space",
-          "Library"
+          "a laboratory",
+          "a performance space",
+          "a library"
         ],
-        "answer": "Performance space"
+        "answer": "a performance space"
       },
       {
         "id": "16.1",
         "question": "What is the benefit of advertising in sports for brands?",
         "options": [
-          "Increases loyalty",
-          "Reaches new customers",
-          "Reduces costs"
+          "It increases brand loyalty among existing customers.",
+          "It helps to reach new customers.",
+          "It reduces marketing costs."
         ],
-        "answer": "Reaches new customers"
+        "answer": "It helps to reach new customers."
       },
       {
         "id": "16.2",
-        "question": "What does the expert say about sports advertising?",
+        "question": "What does the expert say about advertising in sports in general?",
         "options": [
-          "Improves fan experience",
-          "Is essential for growth",
-          "Is not always good for fans"
+          "It improves the overall fan experience.",
+          "It is essential for the growth of sports.",
+          "They are not always good for fans."
         ],
-        "answer": "Is not always good for fans"
+        "answer": "They are not always good for fans."
       },
       {
         "id": "17.1",
-        "question": "What does the teacher say about school sport competitions?",
+        "question": "What does the teacher say about sport competitions at school?",
         "options": [
-          "Improve academic performance",
-          "Can cause harmful effects",
-          "Encourage teamwork"
+          "They improve students’ academic performance.",
+          "They can cause harmful effects.",
+          "They encourage teamwork among students."
         ],
-        "answer": "Can cause harmful effects"
+        "answer": "They can cause harmful effects."
       },
       {
         "id": "17.2",
-        "question": "What does the teacher say about sports generally?",
+        "question": "What does the teacher say about sports in general?",
         "options": [
-          "Prepare students for competition",
-          "Provide balance in students' lives",
-          "Mainly support physical health"
+          "They will prepare students for a competitive life.",
+          "They provide a balance in students’ lives.",
+          "They are mainly important for physical health."
         ],
-        "answer": "Provide balance in students' lives"
+        "answer": "They provide a balance in students’ lives."
       }
     ],
     "q14": {
@@ -638,17 +638,17 @@
     "mc": [
       {
         "id": "1",
-        "question": "How much are the cleaning products?",
+        "question": "Listen to a supermarket announcement. How much are the cleaning products?",
         "options": [
-          "£1.50",
-          "£5.50",
-          "£3.50"
+          "one pound fifty",
+          "five pound fifty",
+          "three pound fifty"
         ],
-        "answer": "£1.50"
+        "answer": "one pound fifty"
       },
       {
         "id": "2",
-        "question": "How many people live in the town?",
+        "question": "Listen to a tour guide. How many people live in the town?",
         "options": [
           "8,000",
           "10,000",
@@ -658,7 +658,7 @@
       },
       {
         "id": "3",
-        "question": "What is the teleshop telephone number?",
+        "question": "Listen to a TV advertisement. What is the teleshop's telephone number?",
         "options": [
           "10 30 20",
           "20 30 10",
@@ -668,17 +668,17 @@
       },
       {
         "id": "4",
-        "question": "When does the meeting start?",
+        "question": "Two colleagues are talking about a meeting. When does the meeting start?",
         "options": [
-          "10:15",
-          "09:45",
-          "10:30"
+          "At 10:15",
+          "At 09:45",
+          "At 10:30"
         ],
-        "answer": "10:15"
+        "answer": "At 10:15"
       },
       {
         "id": "5",
-        "question": "When do the students play football?",
+        "question": "Listen to two teachers talking. When do the students play football?",
         "options": [
           "Friday afternoons",
           "Thursday mornings",
@@ -688,27 +688,27 @@
       },
       {
         "id": "6",
-        "question": "How old is the city?",
+        "question": "Listen to a tour guide. How old is the city?",
         "options": [
-          "1,800 years",
-          "1,500 years",
-          "1,200 years"
+          "1800 years",
+          "1500 years",
+          "1200 years"
         ],
-        "answer": "1,500 years"
+        "answer": "1500 years"
       },
       {
         "id": "7",
-        "question": "What encouraged her to become a scientist?",
+        "question": "Listen to a scientist talking. What encouraged her to become a scientist?",
         "options": [
-          "A collection of things",
-          "A large stone",
-          "Moon-landing videos"
+          "a collection of things",
+          "a large stone",
+          "moon landing videos"
         ],
-        "answer": "A large stone"
+        "answer": "a large stone"
       },
       {
         "id": "8",
-        "question": "At which platform should commuters wait?",
+        "question": "Listen to an announcement. At which platform should commuters wait for the train now?",
         "options": [
           "Five",
           "Three",
@@ -718,27 +718,27 @@
       },
       {
         "id": "9",
-        "question": "What time will Admed and Rose meet?",
+        "question": "Admed is calling his friend, Rose. What time will they meet?",
         "options": [
-          "Quarter to eight",
-          "Six thirty",
-          "Seven thirty"
+          "quarter to eight",
+          "six thirty",
+          "seven thirty"
         ],
-        "answer": "Quarter to eight"
+        "answer": "quarter to eight"
       },
       {
         "id": "10",
-        "question": "What is the best time for children to eat fruit?",
+        "question": "Listen to an expert on a radio program. What is the best time for children to eat fruit?",
         "options": [
-          "Evening",
-          "After lunch",
-          "Morning"
+          "in the evening",
+          "after lunch",
+          "in the morning"
         ],
-        "answer": "Morning"
+        "answer": "in the morning"
       },
       {
         "id": "11",
-        "question": "When is Sally's work due?",
+        "question": "Sally is talking to her lecturer. When is the work due?",
         "options": [
           "Thursday morning",
           "Saturday morning",
@@ -748,63 +748,63 @@
       },
       {
         "id": "12",
-        "question": "What will the teachers do tomorrow?",
+        "question": "Two teachers are talking about a meeting. What will they do tomorrow?",
         "options": [
-          "Plan activities",
-          "Prepare participation list",
-          "Order food"
+          "plan activities",
+          "prepare the participation list",
+          "order the food"
         ],
-        "answer": "Order food"
+        "answer": "order the food"
       },
       {
         "id": "13",
-        "question": "What does the man want to drink?",
+        "question": "Two friends are having lunch. What does the man want to drink?",
         "options": [
-          "Coffee",
-          "Iced tea",
-          "Water"
+          "coffee",
+          "iced tea",
+          "water"
         ],
-        "answer": "Iced tea"
+        "answer": "iced tea"
       },
       {
         "id": "16.1",
-        "question": "What is the plan's most significant disadvantage?",
+        "question": "What is the most significant disadvantage of the plan that the speaker mentioned?",
         "options": [
-          "May increase housing costs",
-          "Provides too few alternatives to driving",
-          "May delay construction"
+          "It may increase housing costs in the area.",
+          "It doesn’t provide enough alternatives to driving.",
+          "It could create delays during construction work."
         ],
-        "answer": "Provides too few alternatives to driving"
+        "answer": "It doesn’t provide enough alternatives to driving."
       },
       {
         "id": "16.2",
-        "question": "What does the speaker say about the plan overall?",
+        "question": "What does the speaker say about the plan in general?",
         "options": [
-          "Improves economic opportunity",
-          "Too ambitious",
-          "Likely to meet local resistance"
+          "It will improve economic opportunities in the region.",
+          "It is too ambitious to be completed successfully.",
+          "It is likely to meet resistance from local communities."
         ],
-        "answer": "Likely to meet local resistance"
+        "answer": "It is likely to meet resistance from local communities."
       },
       {
         "id": "17.1",
-        "question": "What saving method does the expert recommend?",
+        "question": "What method does the speaker recommend to save money?",
         "options": [
-          "Organise resources more effectively",
-          "Set stricter spending limits",
-          "Depend less on digital payments"
+          "Organise their resources more effectively.",
+          "Set stricter limits on unnecessary spending.",
+          "Depend less on digital payment methods."
         ],
-        "answer": "Organise resources more effectively"
+        "answer": "Organise their resources more effectively."
       },
       {
         "id": "17.2",
-        "question": "What should young people do?",
+        "question": "What does the speaker suggest young people should do?",
         "options": [
-          "Invest early",
-          "Ask an experienced acquaintance",
-          "Rely on online information"
+          "Start investing as early as possible.",
+          "Get advice from someone they know who is experienced.",
+          "Rely mainly on financial information online."
         ],
-        "answer": "Ask an experienced acquaintance"
+        "answer": "Get advice from someone they know who is experienced."
       }
     ],
     "q14": {
@@ -849,17 +849,17 @@
     "mc": [
       {
         "id": "1",
-        "question": "How many copies had Freeze Frame sold?",
+        "question": "Listen to a TV program. How many copies had Freeze Frame magazine sold?",
         "options": [
-          "Over 260,000",
-          "Over 300,000",
-          "Over 120,000"
+          "Over 260,000 copies",
+          "Over 300,000 copies",
+          "Over 120,000 copies"
         ],
-        "answer": "Over 300,000"
+        "answer": "Over 300,000 copies"
       },
       {
         "id": "2",
-        "question": "How long does the woman cycle?",
+        "question": "Listen to a woman talking about her day. How long does she cycle for?",
         "options": [
           "40 minutes",
           "25 minutes",
@@ -869,17 +869,17 @@
       },
       {
         "id": "3",
-        "question": "When is the new doctor's appointment?",
+        "question": "The doctor’s office is calling to change the appointment. When is the new appointment?",
         "options": [
-          "Thursday 13th",
-          "Tuesday 13th",
-          "Thursday 30th"
+          "On Thursday 13th",
+          "On Tuesday 13th",
+          "On Thursday 30th"
         ],
-        "answer": "Thursday 13th"
+        "answer": "On Thursday 13th"
       },
       {
         "id": "4",
-        "question": "What color is the teacher's building?",
+        "question": "A man is calling his wife. What color is the teacher’s building?",
         "options": [
           "Purple",
           "White",
@@ -889,7 +889,7 @@
       },
       {
         "id": "5",
-        "question": "What does Lily usually do in the evening?",
+        "question": "Lily is calling her friend. What does she usually do in the evening?",
         "options": [
           "Reads books",
           "Watches TV",
@@ -899,7 +899,7 @@
       },
       {
         "id": "6",
-        "question": "What does the man do after work?",
+        "question": "Listen to a man talking about his daily life. What does he do after work?",
         "options": [
           "Takes a nap",
           "Goes running",
@@ -909,7 +909,7 @@
       },
       {
         "id": "7",
-        "question": "How long does Nate stay in India?",
+        "question": "Nate is calling his friend. How long does Nate stay in India?",
         "options": [
           "One month",
           "Two weeks",
@@ -919,17 +919,17 @@
       },
       {
         "id": "8",
-        "question": "Which afternoon outdoor activity is available?",
+        "question": "Listen to a tour guide. Which outdoor activity can people do in the afternoon?",
         "options": [
-          "City tour",
-          "Dance class",
-          "Golf"
+          "Go on a city tour",
+          "Join a dance class",
+          "Play golf"
         ],
-        "answer": "Golf"
+        "answer": "Play golf"
       },
       {
         "id": "9",
-        "question": "What did the woman lose?",
+        "question": "A woman is calling her friend. What did she lose?",
         "options": [
           "Keys",
           "Phone",
@@ -939,7 +939,7 @@
       },
       {
         "id": "10",
-        "question": "What must Michael buy for his sister?",
+        "question": "Michael is calling his mother. What does he need to buy for his sister?",
         "options": [
           "Pasta",
           "Apples",
@@ -949,19 +949,19 @@
       },
       {
         "id": "11",
-        "question": "What solution is suggested for dissatisfaction at work?",
+        "question": "Listen to an expert talking about the lack of satisfaction at work. What does she suggest as a solution?",
         "options": [
-          "Reduce hours",
+          "Reduce working hours",
           "Request a transfer",
-          "Apply for promotion"
+          "Apply for a promotion"
         ],
         "answer": "Request a transfer"
       },
       {
         "id": "12",
-        "question": "What will the father do for his son?",
+        "question": "A teacher is talking to a parent. What will the father do for his son?",
         "options": [
-          "Buy textbooks",
+          "Buy more textbooks",
           "Change schools",
           "Arrange private classes"
         ],
@@ -969,7 +969,7 @@
       },
       {
         "id": "13",
-        "question": "What did the man enjoy last year?",
+        "question": "Listen to a man talking about his holiday. What did the man enjoy doing last year?",
         "options": [
           "Hiking",
           "Swimming",
@@ -979,43 +979,43 @@
       },
       {
         "id": "16.1",
-        "question": "What does the critic say about the latest novel?",
+        "question": "What does the speaker say about the latest novel?",
         "options": [
-          "Different from earlier works",
-          "Too political",
-          "Harder than previous novels"
+          "It is different from his earlier works.",
+          "It relies too heavily on political themes.",
+          "It is more difficult to understand than his previous novels."
         ],
-        "answer": "Different from earlier works"
+        "answer": "It is different from his earlier works."
       },
       {
         "id": "16.2",
-        "question": "What does the critic say about the author?",
+        "question": "What does the speaker say about the author?",
         "options": [
-          "Less ambitious",
-          "Should listen to critics",
-          "Mainly satisfies long-term fans"
+          "He is becoming less ambitious as a writer.",
+          "He should listen to critics before writing his next work.",
+          "He is mainly interested in satisfying long-term fans."
         ],
-        "answer": "Should listen to critics"
+        "answer": "He should listen to critics before writing his next work."
       },
       {
         "id": "17.1",
-        "question": "What should writers do to improve?",
+        "question": "What does the speaker suggest others follow to improve their writing?",
         "options": [
-          "Create dedicated writing periods",
-          "Wait for inspiration",
-          "Read more varied literature"
+          "Create dedicated periods for writing.",
+          "Wait for inspiration before beginning work.",
+          "Read a wider variety of literature regularly.\""
         ],
-        "answer": "Create dedicated writing periods"
+        "answer": "Create dedicated periods for writing."
       },
       {
         "id": "17.2",
-        "question": "What does she wish she had done differently?",
+        "question": "What does the speaker wish she had done differently in her previous work?",
         "options": [
-          "Relied less on experience",
-          "Sought advice from others",
-          "Written more slowly"
+          "It depended too heavily on personal experiences.",
+          "She refused to seek advice from others.",
+          "It was written too quickly to be fully developed."
         ],
-        "answer": "Sought advice from others"
+        "answer": "She refused to seek advice from others."
       }
     ],
     "q14": {
@@ -1060,7 +1060,7 @@
     "mc": [
       {
         "id": "1",
-        "question": "When will the woman need her computer?",
+        "question": "A woman is calling a repair shop. When will the woman need her computer?",
         "options": [
           "Thursday",
           "Friday",
@@ -1070,17 +1070,17 @@
       },
       {
         "id": "2",
-        "question": "What time does the train leave?",
+        "question": "Listen to an announcement. What time does the train leave?",
         "options": [
-          "9:15",
-          "8:15",
-          "9:00"
+          "At 9:15",
+          "At 8:15",
+          "At 9:00"
         ],
-        "answer": "9:15"
+        "answer": "At 9:15"
       },
       {
         "id": "3",
-        "question": "How long does it take to reach the station?",
+        "question": "A man is calling his friend. How long does it take to get to the train station?",
         "options": [
           "40 minutes",
           "20 minutes",
@@ -1090,47 +1090,47 @@
       },
       {
         "id": "4",
-        "question": "When is the meeting?",
+        "question": "Two colleagues are discussing the timetable. When is the meeting?",
         "options": [
-          "Monday morning",
-          "Friday morning",
-          "Thursday morning"
+          "on Monday morning",
+          "on Friday morning",
+          "on Thursday morning"
         ],
-        "answer": "Thursday morning"
+        "answer": "on Thursday morning"
       },
       {
         "id": "5",
-        "question": "How does the teacher go to school?",
+        "question": "Listen to a teacher talking about her morning routine. How does the teacher go to school?",
         "options": [
-          "Walks",
-          "Drives",
-          "Takes the bus"
+          "She walks.",
+          "She drives a car.",
+          "She takes the bus."
         ],
-        "answer": "Walks"
+        "answer": "She walks."
       },
       {
         "id": "6",
-        "question": "Why does Vincent call James?",
+        "question": "Listen to a voice message. Why does Vincent call James?",
         "options": [
-          "Ask for help",
-          "Notify a change",
-          "Suggest a drink"
+          "To ask for help",
+          "To notify a change",
+          "To suggest a drink"
         ],
-        "answer": "Suggest a drink"
+        "answer": "To suggest a drink"
       },
       {
         "id": "7",
-        "question": "What does the actor like doing in her free time?",
+        "question": "Listen to an actor talking on a TV program. What does she like to do in her free time?",
         "options": [
-          "Posting online",
-          "Drawing",
-          "Reading"
+          "posting online",
+          "drawing",
+          "reading books"
         ],
-        "answer": "Drawing"
+        "answer": "drawing"
       },
       {
         "id": "8",
-        "question": "What did the man enjoy last year?",
+        "question": "Listen to a man talking. What did he enjoy doing last year?",
         "options": [
           "Cycling",
           "Mountaineering",
@@ -1140,93 +1140,93 @@
       },
       {
         "id": "9",
-        "question": "What does the professor ask the student to do?",
+        "question": "Listen to a conversation. What does the professor ask his student to do?",
         "options": [
-          "Conduct a survey",
-          "Change topic",
+          "Conduct a survey for data",
+          "Change the topic",
           "Speak at a conference"
         ],
         "answer": "Speak at a conference"
       },
       {
         "id": "10",
-        "question": "What does Anna need to do?",
+        "question": "Anna is calling her brother. What does Anna need to do?",
         "options": [
-          "Stay late at office",
-          "Pick up her child",
+          "Stay late at the office",
+          "Pick up her kid",
           "Take an art course"
         ],
-        "answer": "Stay late at office"
+        "answer": "Stay late at the office"
       },
       {
         "id": "11",
-        "question": "What saving advice does the expert give?",
+        "question": "Listen to a financial expert. What advice does she give on saving money?",
         "options": [
-          "Invest",
-          "Buy discounted products",
+          "Invest your money",
+          "Hunt for discount products",
           "Cook for yourself"
         ],
         "answer": "Cook for yourself"
       },
       {
         "id": "12",
-        "question": "What does the employee say about George?",
+        "question": "Listen to an employee talking. What does she say about her old manager, George?",
         "options": [
-          "Very strict",
-          "Taught her a lot",
-          "Best employee"
+          "He was very strict",
+          "He taught her a lot",
+          "He was the best employee"
         ],
-        "answer": "Taught her a lot"
+        "answer": "He taught her a lot"
       },
       {
         "id": "13",
-        "question": "What do the daughter and mother share?",
+        "question": "Listen to a girl talking. What do the daughter and her mother have in common?",
         "options": [
-          "Same field",
-          "Similar figures",
-          "Similar characters"
+          "They work in the same field",
+          "They have similar figures",
+          "They have similar characters"
         ],
-        "answer": "Similar characters"
+        "answer": "They have similar characters"
       },
       {
         "id": "16.1",
-        "question": "What best maintains professionalism?",
+        "question": "What method is most effective for maintaining professionalism?",
         "options": [
-          "Positive attitude",
-          "Strict rules",
-          "Complete personal/professional separation"
+          "Maintaining a positive attitude.",
+          "Following strict workplace rules.",
+          "Separating personal and professional life completely."
         ],
-        "answer": "Positive attitude"
+        "answer": "Maintaining a positive attitude."
       },
       {
         "id": "16.2",
         "question": "What does the speaker say about professionalism?",
         "options": [
-          "Less important",
-          "Its definition is changing",
-          "Young staff misunderstand it"
+          "It is becoming less important in modern workplaces.",
+          "Our definition of it is changing.",
+          "Younger employees misunderstand its meaning."
         ],
-        "answer": "Its definition is changing"
+        "answer": "Our definition of it is changing."
       },
       {
         "id": "17.1",
-        "question": "What should students do after university?",
+        "question": "What does the speaker advise students to do after university?",
         "options": [
-          "Gain qualifications",
-          "Be flexible and open-minded",
-          "Choose a career early"
+          "Focus on gaining qualifications.",
+          "Be more flexible and open-minded.",
+          "Choose a career path as early as possible."
         ],
-        "answer": "Be flexible and open-minded"
+        "answer": "Be more flexible and open-minded."
       },
       {
         "id": "17.2",
-        "question": "What does the adviser say about life after university?",
+        "question": "What does the speaker say about life after university?",
         "options": [
-          "More freedom",
-          "More competitive",
-          "Experience matters less"
+          "It offers graduates more freedom than before.",
+          "It is becoming more competitive",
+          "Employers now value experience less highly."
         ],
-        "answer": "More competitive"
+        "answer": "It is becoming more competitive"
       }
     ],
     "q14": {
@@ -1271,173 +1271,173 @@
     "mc": [
       {
         "id": "1",
-        "question": "What time can Jorge and Jose meet?",
+        "question": "Jorge is calling his friend Jose. What time can they meet?",
         "options": [
-          "7:30 p.m.",
-          "8:30 p.m.",
-          "6:30 p.m."
+          "7.30 p.m",
+          "8.30 p.m",
+          "6.30 p.m"
         ],
-        "answer": "6:30 p.m."
+        "answer": "6.30 p.m"
       },
       {
         "id": "2",
-        "question": "How much is the small car?",
+        "question": "Adam is phoning a car dealer. How much is the small car?",
         "options": [
           "£4,070",
-          "£3,250",
+          "£ 3,250",
           "£2,050"
         ],
-        "answer": "£3,250"
+        "answer": "£ 3,250"
       },
       {
         "id": "3",
-        "question": "What time does the mother meet her child?",
+        "question": "A mother is calling her child. What time does she meet her child?",
         "options": [
-          "3:00",
-          "4:00",
-          "2:00"
+          "Three o’clock",
+          "Four o’clock",
+          "Two o'clock"
         ],
-        "answer": "3:00"
+        "answer": "Three o’clock"
       },
       {
         "id": "4",
-        "question": "Why does the man need to learn to drive?",
+        "question": "Listen to a man talking. Why does he need to learn to drive?",
         "options": [
-          "Drive to work",
-          "Drive children to school",
-          "Won a free car"
+          "He has to drive to work.",
+          "He needs to drive his children to school.",
+          "He wins a free car."
         ],
-        "answer": "Drive to work"
+        "answer": "He has to drive to work."
       },
       {
         "id": "5",
-        "question": "Why does Douglas call Kay?",
+        "question": "Listen to a phone call. Why does Douglas call Kay?",
         "options": [
-          "Give suggestions",
-          "Say thank you",
-          "Set up a date"
+          "To give suggestions",
+          "To say thank you",
+          "To set up a date"
         ],
-        "answer": "Say thank you"
+        "answer": "To say thank you"
       },
       {
         "id": "6",
-        "question": "What does he want his colleague to do?",
+        "question": "Listen to a voice mail. What does he want his colleague to do?",
         "options": [
-          "Cancel meeting",
-          "Reschedule meeting",
-          "Meet without him"
+          "Cancel the meeting",
+          "Reschedule the meeting",
+          "Have a meeting without him"
         ],
-        "answer": "Meet without him"
+        "answer": "Have a meeting without him"
       },
       {
         "id": "7",
-        "question": "What does the family do most weekends?",
+        "question": "Listen to a woman talking. What does the family do most weekends?",
         "options": [
-          "Fishing",
-          "Bowling",
-          "Walking"
+          "Goes fishing",
+          "Goes bowling",
+          "Goes for a walk"
         ],
-        "answer": "Walking"
+        "answer": "Goes for a walk"
       },
       {
         "id": "8",
-        "question": "What do the friends decide to do tonight?",
+        "question": "Listen to two friends talking. What do the man and the woman decide to do in the evening?",
         "options": [
           "Make plans later",
-          "Stay home",
+          "Stay at home and relax",
           "Order Chinese food"
         ],
         "answer": "Make plans later"
       },
       {
         "id": "9",
-        "question": "What is his main house-buying problem?",
+        "question": "A man is talking about buying houses. What is his main problem?",
         "options": [
-          "Location",
-          "Persuading family",
-          "Payment"
+          "Choosing location",
+          "Persuading his family",
+          "Paying for the property"
         ],
-        "answer": "Persuading family"
+        "answer": "Persuading his family"
       },
       {
         "id": "10",
-        "question": "What do starlings do in winter?",
+        "question": "Listen to a wildlife biologist talking about a specific kind of birds, starlings. What do these birds do in the winter?",
         "options": [
-          "Stay together for protection",
-          "Migrate south",
-          "Store food"
+          "Stay together for group protection",
+          "Migrate to the south",
+          "Store food inside tree hollows"
         ],
-        "answer": "Stay together for protection"
+        "answer": "Stay together for group protection"
       },
       {
         "id": "11",
-        "question": "Why does the woman wake early?",
+        "question": "Listen to a woman talking about her day. Why does she wake up early every day?",
         "options": [
-          "Run",
-          "Prepare breakfast",
-          "Have quiet time"
+          "To go for a run",
+          "To prepare breakfast for the family",
+          "To have some quiet time"
         ],
-        "answer": "Have quiet time"
+        "answer": "To have some quiet time"
       },
       {
         "id": "12",
-        "question": "How will the concert end?",
+        "question": "Listen to an announcement. How will the concert end?",
         "options": [
-          "Fireworks",
-          "City's favorite group",
-          "Live orchestra"
+          "A firework performance",
+          "The city’s favorite group",
+          "A live orchestra"
         ],
-        "answer": "City's favorite group"
+        "answer": "The city’s favorite group"
       },
       {
         "id": "13",
-        "question": "What is the largest room?",
+        "question": "Listen to a real estate agent. What is the largest room in the house?",
         "options": [
           "Living room",
-          "Bedroom",
-          "Kitchen"
+          "The bedroom",
+          "The kitchen"
         ],
-        "answer": "Kitchen"
+        "answer": "The kitchen"
       },
       {
         "id": "16.1",
-        "question": "What news is reported about the musician?",
+        "question": "What news does the speaker report about the musician?",
         "options": [
-          "He will retire",
-          "He will release a final album",
-          "He will tour again"
+          "He will retire from singing professionally.",
+          "He is planning to release a final album.",
+          "He has decided to begin touring again."
         ],
-        "answer": "He will retire"
+        "answer": "He will retire from singing professionally."
       },
       {
         "id": "16.2",
-        "question": "What is said about his career?",
+        "question": "What does the speaker say about the musician in general?",
         "options": [
-          "Success came too quickly",
-          "He could have been more successful",
-          "Too commercially focused"
+          "He became successful too quickly in his career.",
+          "He could have been more successful.",
+          "He focused too much on commercial success."
         ],
-        "answer": "He could have been more successful"
+        "answer": "He could have been more successful."
       },
       {
         "id": "17.1",
-        "question": "What is exciting about the guide book?",
+        "question": "What is exciting about the new guide book?",
         "options": [
-          "Detailed history",
-          "Sense of adventure",
-          "Unknown restaurants"
+          "It contains detailed historical information.",
+          "It creates a sense of adventure.",
+          "It focuses on lesser-known restaurants and cafés."
         ],
-        "answer": "Sense of adventure"
+        "answer": "It creates a sense of adventure."
       },
       {
         "id": "17.2",
-        "question": "What is said about the guide book generally?",
+        "question": "What does the speaker say about the new guide book in general?",
         "options": [
-          "Too expensive",
-          "Only for one generation",
-          "Unrealistic"
+          "It is too expensive for most travellers.",
+          "It is only suitable for a particular generation.",
+          "It presents an unrealistic view of travel."
         ],
-        "answer": "Only for one generation"
+        "answer": "It is only suitable for a particular generation."
       }
     ],
     "q14": {
@@ -1482,27 +1482,27 @@
     "mc": [
       {
         "id": "1",
-        "question": "What time is the football match?",
+        "question": "Max is calling his friend. What time is the football match?",
         "options": [
-          "2 p.m.",
-          "11 p.m.",
-          "1 p.m."
+          "2 p.m",
+          "11 p.m",
+          "1p.m"
         ],
-        "answer": "1 p.m."
+        "answer": "1p.m"
       },
       {
         "id": "2",
-        "question": "What does Amanda usually do on Saturdays?",
+        "question": "Listen to Amanda speaking. What does she usually do on Saturdays?",
         "options": [
-          "Sees family",
-          "Lunches with friends",
-          "Grocery shopping"
+          "Sees her family",
+          "Has lunch with friends",
+          "Buys groceries and goes shopping"
         ],
-        "answer": "Sees family"
+        "answer": "Sees her family"
       },
       {
         "id": "3",
-        "question": "Where does Anna walk each morning?",
+        "question": "Anna is talking about her daily routine. Where does Anna go for a walk every morning?",
         "options": [
           "Sports center",
           "College",
@@ -1512,7 +1512,7 @@
       },
       {
         "id": "4",
-        "question": "How does Evan feel?",
+        "question": "Evan is calling his mom. How does Evan feel?",
         "options": [
           "Sick",
           "Bored",
@@ -1522,57 +1522,57 @@
       },
       {
         "id": "5",
-        "question": "What will the holiday weather be like?",
+        "question": "Two friends are discussing their holiday. What do they think the weather will be like?",
         "options": [
           "Not cold and wet",
           "Cold and wet",
-          "Cold and dry"
+          "Cold and not wet"
         ],
         "answer": "Cold and wet"
       },
       {
         "id": "6",
-        "question": "How does Greg go to work?",
+        "question": "Greg is talking about his commuting plan. How does he go to work?",
         "options": [
-          "Train",
-          "Bus",
-          "Car"
+          "by train",
+          "by bus",
+          "by car"
         ],
-        "answer": "Bus"
+        "answer": "by bus"
       },
       {
         "id": "7",
-        "question": "What did the woman do on holiday?",
+        "question": "Listen to a woman talking about her holiday. What did the woman do on holiday?",
         "options": [
-          "Met relatives",
-          "Visited landmarks",
-          "Went to park"
+          "Meet relatives",
+          "Visit popular landmarks",
+          "Go to the park"
         ],
-        "answer": "Went to park"
+        "answer": "Go to the park"
       },
       {
         "id": "8",
-        "question": "What is her favorite entertainment?",
+        "question": "Listen to a conversation. What is the woman’s favorite form of entertainment?",
         "options": [
-          "Music",
-          "Theater",
-          "Sports"
+          "Listening to music",
+          "Going to the theater",
+          "Playing sports"
         ],
-        "answer": "Theater"
+        "answer": "Going to the theater"
       },
       {
         "id": "9",
-        "question": "What does the man buy?",
+        "question": "Listen to a conversation. What does the man buy in the shop?",
         "options": [
-          "Regular menswear",
-          "Holiday hat",
-          "Office suit"
+          "A regular menswear item",
+          "A hat for holiday",
+          "A suit for office"
         ],
-        "answer": "Office suit"
+        "answer": "A suit for office"
       },
       {
         "id": "10",
-        "question": "What is Soobin's favorite room?",
+        "question": "Listen to Soobin talking about her home. What is Soobin's favorite room in the house?",
         "options": [
           "Bathroom",
           "Bedroom",
@@ -1582,73 +1582,73 @@
       },
       {
         "id": "11",
-        "question": "Where will the group wait for the bus?",
+        "question": "Listen to a tour guide. Where will the group wait for the bus?",
         "options": [
-          "Port",
-          "Hotel entrance",
-          "Bus stop"
+          "At the port",
+          "By the hotel's main entrance",
+          "At the bus stop"
         ],
-        "answer": "Hotel entrance"
+        "answer": "By the hotel's main entrance"
       },
       {
         "id": "12",
-        "question": "Where is the woman going on holiday?",
+        "question": "Listen to a woman talking about her upcoming holiday. Where is she going?",
         "options": [
-          "East",
-          "South",
-          "North"
+          "The east",
+          "The south",
+          "The north"
         ],
-        "answer": "South"
+        "answer": "The south"
       },
       {
         "id": "13",
-        "question": "Where does she want to shop?",
+        "question": "Listen to a street interview. Where does she want to go shopping?",
         "options": [
-          "Local shops",
-          "Outdoor market",
-          "New shopping center"
+          "At small local shops",
+          "At the outdoor marketplace",
+          "At a new shopping center"
         ],
-        "answer": "New shopping center"
+        "answer": "At a new shopping center"
       },
       {
         "id": "16.1",
-        "question": "What was her work-from-home experience?",
+        "question": "What does the speaker say about her experience working from home?",
         "options": [
-          "Worse than expected",
-          "Removed distractions",
-          "Improved balance"
+          "It was not as good as expected.",
+          "It removes sources of distraction.",
+          "It provides a sense of work-life balance."
         ],
-        "answer": "Worse than expected"
+        "answer": "It was not as good as expected."
       },
       {
         "id": "16.2",
-        "question": "What does she recommend?",
+        "question": "What does the speaker recommend for people who want to work from home?",
         "options": [
-          "Have a large space",
-          "Work overtime",
-          "Consider situation and personality"
+          "It is advisable to have a large space.",
+          "It requires people to work overtime.",
+          "It depends on your situation and personality."
         ],
-        "answer": "Consider situation and personality"
+        "answer": "It depends on your situation and personality."
       },
       {
         "id": "17.1",
-        "question": "What is most exciting about the novel?",
+        "question": "What is the most exciting aspect of the new novel?",
         "options": [
-          "Interesting character",
-          "Realistic setting",
-          "Unpredictable plot"
+          "The character is interesting.",
+          "The setting feels highly realistic.",
+          "The plot develops unpredictably."
         ],
-        "answer": "Interesting character"
+        "answer": "The character is interesting."
       },
       {
         "id": "17.2",
-        "question": "What does the critic say about the novel?",
+        "question": "What does the speaker say about the new novel?",
         "options": [
-          "Establishes author's popularity",
-          "Easy for everyone",
-          "Divides critics and readers"
+          "It helps to establish the author’s popularity.",
+          "It is an easy-read for everyone.",
+          "It is likely to divide critics and readers equally."
         ],
-        "answer": "Establishes author's popularity"
+        "answer": "It helps to establish the author’s popularity."
       }
     ],
     "q14": {
@@ -1693,129 +1693,129 @@
     "mc": [
       {
         "id": "1",
-        "question": "What time is lunch ready?",
+        "question": "A woman is calling her husband. What time is lunch ready?",
         "options": [
-          "12 p.m.",
-          "2 p.m.",
-          "1 p.m."
+          "12 p.m",
+          "2 p.m",
+          "1p.m"
         ],
-        "answer": "2 p.m."
+        "answer": "2 p.m"
       },
       {
         "id": "2",
-        "question": "Where will the girl meet her dad?",
+        "question": "Listen to a girl calling her dad. Where is she going to meet her dad?",
         "options": [
-          "Front entrance",
+          "The front entrance",
           "Car park",
           "Bookshop"
         ],
-        "answer": "Front entrance"
+        "answer": "The front entrance"
       },
       {
         "id": "3",
-        "question": "Which classroom will the class use?",
+        "question": "Listen to a teacher talking to her students. Which room will the class be in?",
         "options": [
-          "201",
-          "401",
-          "301"
+          "Room 201",
+          "Room 401",
+          "Room 301"
         ],
-        "answer": "301"
+        "answer": "Room 301"
       },
       {
         "id": "4",
-        "question": "Where is the main office?",
+        "question": "Listen to a phone call. Where is the main office located?",
         "options": [
-          "By bus stop",
-          "Outside station",
-          "Opposite hotel"
+          "Next to a bus stop",
+          "Outside the station",
+          "Opposite the hotel"
         ],
-        "answer": "Opposite hotel"
+        "answer": "Opposite the hotel"
       },
       {
         "id": "5",
-        "question": "Who visits Tom this weekend?",
+        "question": "Listen to Tom speaking. Who is visiting Tom this weekend?",
         "options": [
-          "Old boss",
-          "Sister and children",
-          "Childhood friends"
+          "His old boss",
+          "His sister and her children",
+          "His childhood friends"
         ],
-        "answer": "Sister and children"
+        "answer": "His sister and her children"
       },
       {
         "id": "6",
-        "question": "What was the woman good at?",
+        "question": "Listen to a conversation. What was the woman good at?",
         "options": [
-          "Swimming",
-          "Football",
-          "Tennis"
+          "Go swimming",
+          "Play football",
+          "Play tennis"
         ],
-        "answer": "Football"
+        "answer": "Play football"
       },
       {
         "id": "7",
-        "question": "Why does she want to be a writer?",
+        "question": "Listen to an author speaking. Why does she want to become a writer?",
         "options": [
-          "Travel",
-          "Earn more",
-          "Help people"
+          "To travel to places",
+          "To earn more money",
+          "To help people"
         ],
-        "answer": "Help people"
+        "answer": "To help people"
       },
       {
         "id": "8",
-        "question": "What did she do last weekend?",
+        "question": "Listen to a woman speaking. What did she do last weekend?",
         "options": [
-          "Saw friends",
-          "Stayed home",
+          "Hung out with friends",
+          "Stayed at home",
           "Watched performances"
         ],
-        "answer": "Stayed home"
+        "answer": "Stayed at home"
       },
       {
         "id": "9",
-        "question": "What is the main cause of poor air quality?",
+        "question": "Listen to a radio programme. What is the main cause of poor air quality?",
         "options": [
-          "Traffic fumes",
-          "Summer heat",
-          "Countryside fires"
+          "Exhaust fumes from traffic",
+          "High temperatures during summer months",
+          "Fires in the countryside"
         ],
-        "answer": "Countryside fires"
+        "answer": "Fires in the countryside"
       },
       {
         "id": "10",
-        "question": "Why was the flight cancelled?",
+        "question": "Listen to an announcement. Why has the flight been cancelled?",
         "options": [
-          "Strike",
-          "Holiday",
-          "Poor weather"
+          "Workers' strike",
+          "National holidays",
+          "Poor weather conditions"
         ],
-        "answer": "Poor weather"
+        "answer": "Poor weather conditions"
       },
       {
         "id": "11",
-        "question": "How are his mother and aunt alike?",
+        "question": "Listen to a man speaking during a family gathering. In what way are his mother and aunt alike?",
         "options": [
-          "Long hair",
-          "Thin",
-          "Same eye color"
+          "They had long hair",
+          "They were thin",
+          "They had the same eye color"
         ],
-        "answer": "Thin"
+        "answer": "They were thin"
       },
       {
         "id": "12",
-        "question": "How will the man travel to the city?",
+        "question": "Listen to a conversation. How is the man going to travel to the city?",
         "options": [
-          "Bus",
-          "Train",
-          "Car"
+          "by bus",
+          "by train",
+          "by car"
         ],
-        "answer": "Train"
+        "answer": "by train"
       },
       {
         "id": "13",
-        "question": "What is the woman going to do?",
+        "question": "Listen to a conversation. What is the woman going to do?",
         "options": [
-          "Join party",
+          "Join a party",
           "Prepare meals",
           "Have coffee"
         ],
@@ -1825,41 +1825,41 @@
         "id": "16.1",
         "question": "What is special about the TV series?",
         "options": [
-          "Unusual filming",
-          "Story strengthens",
-          "Immediately caught attention"
+          "It uses an unusual filming style.",
+          "The storyline becomes stronger over time.",
+          "It caught the audience’s attention from the start."
         ],
-        "answer": "Immediately caught attention"
+        "answer": "It caught the audience’s attention from the start."
       },
       {
         "id": "16.2",
-        "question": "What is said about TV series generally?",
+        "question": "What does the speaker say about TV series in general?",
         "options": [
-          "Damaged by overexposure",
-          "Audiences prefer shorter shows",
-          "Streaming improves quality"
+          "Series are damaged by overexposure.",
+          "Audiences now prefer shorter productions.",
+          "Streaming services are improving programme quality."
         ],
-        "answer": "Damaged by overexposure"
+        "answer": "Series are damaged by overexposure."
       },
       {
         "id": "17.1",
-        "question": "What is said about security-camera impact?",
+        "question": "What does the speaker say about the impact of security cameras?",
         "options": [
-          "Spaces less welcoming",
-          "People worry unnecessarily",
-          "Ineffective against crime"
+          "They make public spaces less welcoming.",
+          "People are unnecessarily worried about them.",
+          "They are ineffective at preventing crime."
         ],
-        "answer": "People worry unnecessarily"
+        "answer": "People are unnecessarily worried about them."
       },
       {
         "id": "17.2",
-        "question": "What is said about cameras generally?",
+        "question": "What does the speaker say about security cameras in general?",
         "options": [
-          "Need more control",
-          "Encourage responsibility",
-          "Should reassure people"
+          "They should be controlled more carefully by governments.",
+          "They encourage people to behave more responsibly.",
+          "People should feel reassured about their presence."
         ],
-        "answer": "Should reassure people"
+        "answer": "People should feel reassured about their presence."
       }
     ],
     "q14": {
@@ -1904,27 +1904,27 @@
     "mc": [
       {
         "id": "1",
-        "question": "Where is the main office?",
+        "question": "Listen to a voice message from a secretary. Where is the main office located?",
         "options": [
-          "Third floor",
-          "First floor",
-          "Second floor"
+          "On the third floor",
+          "On the first floor",
+          "On the second floor"
         ],
-        "answer": "First floor"
+        "answer": "On the first floor"
       },
       {
         "id": "2",
-        "question": "When will Samia meet her friend?",
+        "question": "Samia is going to meet her friend. When are they going to meet?",
         "options": [
-          "8:00",
-          "10:00",
-          "9:00"
+          "At 8:00",
+          "At 10:00",
+          "At 9:00"
         ],
-        "answer": "10:00"
+        "answer": "At 10:00"
       },
       {
         "id": "3",
-        "question": "What did both friends buy?",
+        "question": "Listen to two friends talking about shopping. What did they both buy?",
         "options": [
           "Hats",
           "Fruits",
@@ -1934,27 +1934,27 @@
       },
       {
         "id": "4",
-        "question": "Why does he like Dubai?",
+        "question": "A man is talking about his life in Dubai. Why does he like Dubai?",
         "options": [
-          "Job",
-          "Food",
-          "Helpful people"
+          "He enjoys the job here",
+          "He loves the food",
+          "He thinks the people are helpful"
         ],
-        "answer": "Job"
+        "answer": "He enjoys the job here"
       },
       {
         "id": "5",
-        "question": "What part of the song attracts attention?",
+        "question": "Listen to a radio program about a newly released song. What aspect of the song attracts attention?",
         "options": [
-          "Instrument",
-          "Melody",
-          "Words"
+          "The instrument",
+          "The melody",
+          "The words"
         ],
-        "answer": "Words"
+        "answer": "The words"
       },
       {
         "id": "6",
-        "question": "Why does he prefer the train?",
+        "question": "Listen to a street interview. Why does the man prefer travelling by train?",
         "options": [
           "Economical",
           "Practical",
@@ -1964,7 +1964,7 @@
       },
       {
         "id": "7",
-        "question": "Where will the tour meet for the bus?",
+        "question": "Listen to a tour guide. Where will they meet for the bus home?",
         "options": [
           "Marketplace",
           "Bus stop",
@@ -1974,19 +1974,19 @@
       },
       {
         "id": "8",
-        "question": "Why was the tour cancelled?",
+        "question": "Listen to a tour guide. Why was the tour cancelled?",
         "options": [
-          "Museum closed",
-          "Weather",
-          "Too few people"
+          "The museum is closed",
+          "Bad weather",
+          "Not enough people"
         ],
-        "answer": "Too few people"
+        "answer": "Not enough people"
       },
       {
         "id": "9",
-        "question": "What is Anna's relationship with this person?",
+        "question": "Anna is talking about an important person. What is the relationship between Anna and this person?",
         "options": [
-          "Mother/daughter",
+          "Mother and daughter",
           "Roommates",
           "Best friends"
         ],
@@ -1994,27 +1994,27 @@
       },
       {
         "id": "10",
-        "question": "What does Mary ask about?",
+        "question": "Listen to a voice message. What does Mary want to ask her friend about?",
         "options": [
           "Where to repair it",
           "Where to buy a new table",
-          "Where to donate furniture"
+          "Where to donate old furniture"
         ],
         "answer": "Where to buy a new table"
       },
       {
         "id": "11",
-        "question": "Where will tea be served?",
+        "question": "Listen to an announcement. Where will tea be served?",
         "options": [
-          "Castle",
-          "Farm",
-          "River boat"
+          "At the castle",
+          "On the farm",
+          "On the river boat"
         ],
-        "answer": "River boat"
+        "answer": "On the river boat"
       },
       {
         "id": "12",
-        "question": "What cabinet part is not original?",
+        "question": "Listen to an antique collector. What part of the cabinet is not original?",
         "options": [
           "Drawer",
           "Handle",
@@ -2024,53 +2024,53 @@
       },
       {
         "id": "13",
-        "question": "What is near the football club?",
+        "question": "Listen to a man giving directions. What is near the football club?",
         "options": [
-          "Swimming pool",
-          "Park",
-          "Running track"
+          "A swimming pool",
+          "A park",
+          "A running track"
         ],
-        "answer": "Park"
+        "answer": "A park"
       },
       {
         "id": "16.1",
-        "question": "Why did the graduate take a study break?",
+        "question": "What does the speaker say about the reason for his break from studying?",
         "options": [
-          "Gain work experience",
-          "Not ready for higher education",
-          "Choose a subject"
+          "He wanted to gain work experience before applying to university.",
+          "He wasn't ready to start higher education.",
+          "He needed time to decide which subject to study."
         ],
-        "answer": "Not ready for higher education"
+        "answer": "He wasn't ready to start higher education."
       },
       {
         "id": "16.2",
-        "question": "What did he learn?",
+        "question": "What did the speaker learn from the experience?",
         "options": [
-          "Manage money",
-          "Be independent",
-          "Teamwork"
+          "How to manage money more effectively.",
+          "How to be more independent.",
+          "How to work successfully in a team."
         ],
-        "answer": "Be independent"
+        "answer": "How to be more independent."
       },
       {
         "id": "17.1",
-        "question": "What does the expert say about happiness?",
+        "question": "What does the speaker say about happiness?",
         "options": [
-          "Media reports are inaccurate",
-          "Income matters more",
-          "Can be measured reliably"
+          "It has not been accurately reported by the media.",
+          "It is influenced more by income than people realise.",
+          "It can be measured reliably using scientific methods."
         ],
-        "answer": "Media reports are inaccurate"
+        "answer": "It has not been accurately reported by the media."
       },
       {
         "id": "17.2",
-        "question": "What is said about happiness research?",
+        "question": "What does the speaker say about various research on happiness?",
         "options": [
-          "Becoming reliable",
-          "Unlikely to reach a conclusion",
-          "Too culture-focused"
+          "They are becoming more reliable over time.",
+          "They are unlikely to find a conclusive answer.",
+          "They focus too heavily on cultural differences."
         ],
-        "answer": "Unlikely to reach a conclusion"
+        "answer": "They are unlikely to find a conclusive answer."
       }
     ],
     "q14": {
@@ -2115,19 +2115,19 @@
     "mc": [
       {
         "id": "1",
-        "question": "What time does he usually eat?",
+        "question": "Listening to a man talking about his daily routine. What time does he usually eat?",
         "options": [
-          "6:00",
-          "7:00",
-          "8:00"
+          "Six o'clock",
+          "Seven o'clock",
+          "Eight o'clock"
         ],
-        "answer": "7:00"
+        "answer": "Seven o'clock"
       },
       {
         "id": "2",
-        "question": "What does Jana's sister look like?",
+        "question": "Jana is calling her friend. What does Jana's sister look like?",
         "options": [
-          "Glasses",
+          "Wearing glasses",
           "Curly hair",
           "Short"
         ],
@@ -2135,57 +2135,57 @@
       },
       {
         "id": "3",
-        "question": "Where did the girl leave her item?",
+        "question": "A girl is calling the staff of a cafe to talk about something she forgot. Where did she put it?",
         "options": [
-          "Corner",
-          "Near windows",
-          "Restroom"
+          "In the corner",
+          "Near the windows",
+          "In the restroom"
         ],
-        "answer": "Corner"
+        "answer": "In the corner"
       },
       {
         "id": "4",
-        "question": "Where will Luis and Sandra meet?",
+        "question": "Luis is calling Sandra. Where are they going to meet?",
         "options": [
-          "Bus stop",
-          "Coffee shop",
-          "Outside station"
+          "At the bus stop",
+          "Outside a coffee shop",
+          "Outside the station"
         ],
-        "answer": "Outside station"
+        "answer": "Outside the station"
       },
       {
         "id": "5",
-        "question": "Where is she going on holiday?",
+        "question": "Listen to a woman speaking. Where is she going on her holiday?",
         "options": [
-          "Forests",
-          "Mountains",
-          "Lakes"
+          "The forests",
+          "The mountains",
+          "The lakes"
         ],
-        "answer": "Mountains"
+        "answer": "The mountains"
       },
       {
         "id": "6",
-        "question": "What will she do on holiday?",
+        "question": "Listen to a woman talking about her upcoming holiday. What is the woman going to do on holiday?",
         "options": [
           "Walking",
-          "Photos",
+          "Taking photos",
           "Swimming"
         ],
         "answer": "Walking"
       },
       {
         "id": "7",
-        "question": "What was the man's favorite subject?",
+        "question": "Listen to two friends talking about their old days. What was the man's favourite subject?",
         "options": [
-          "Swimming",
-          "History",
-          "Maths"
+          "Swimming classes",
+          "History classes",
+          "Maths classes"
         ],
-        "answer": "History"
+        "answer": "History classes"
       },
       {
         "id": "8",
-        "question": "What does his wife enjoy?",
+        "question": "Listen to a man speaking about his holiday. What does the man's wife enjoy doing?",
         "options": [
           "Hiking",
           "Sightseeing",
@@ -2195,39 +2195,39 @@
       },
       {
         "id": "9",
-        "question": "What did the family do last year?",
+        "question": "Listen to a woman talking about her family's holiday. What did the family do last year?",
         "options": [
-          "Sandcastles",
+          "Building sandcastles",
           "Camping",
-          "Fireworks"
+          "Watching fireworks"
         ],
         "answer": "Camping"
       },
       {
         "id": "10",
-        "question": "Where is the coffee shop?",
+        "question": "Listen to an announcement. Where is the coffee shop located?",
         "options": [
-          "Opposite gift shop",
-          "Downstairs right",
-          "Next to workshop"
+          "Opposite the gift shop",
+          "Downstairs on the right",
+          "Next to the workshop area"
         ],
-        "answer": "Opposite gift shop"
+        "answer": "Opposite the gift shop"
       },
       {
         "id": "11",
-        "question": "Where will husband and wife meet?",
+        "question": "A husband is calling his wife. Where will they meet?",
         "options": [
-          "Parking lot",
-          "Station",
-          "Outside shop"
+          "In the parking lot",
+          "Outside the station",
+          "Outside the shop"
         ],
-        "answer": "Outside shop"
+        "answer": "Outside the shop"
       },
       {
         "id": "12",
-        "question": "What was the writer's first job?",
+        "question": "Listen to an author speaking. What was the writer's first job?",
         "options": [
-          "Manager",
+          "Corporate manager",
           "Baker",
           "Teacher"
         ],
@@ -2235,53 +2235,53 @@
       },
       {
         "id": "13",
-        "question": "Who is the coach photographing?",
+        "question": "Listen to a coach speaking. Who is she taking pictures of?",
         "options": [
-          "Boys' team",
-          "Only Lucy, Anna and Mary",
-          "Girls' team"
+          "The boys' team",
+          "Only Lucy, Anna, and Mary",
+          "The girls' team"
         ],
-        "answer": "Girls' team"
+        "answer": "The girls' team"
       },
       {
         "id": "16.1",
-        "question": "What is the customer's opinion of the restaurant?",
+        "question": "What is the speaker's opinion about this restaurant in particular?",
         "options": [
-          "Overpriced food",
-          "Poor service",
-          "Too little variety"
+          "The food was overpriced for its quality.",
+          "The standard of service was not good.",
+          "The menu offered too little variety."
         ],
-        "answer": "Poor service"
+        "answer": "The standard of service was not good."
       },
       {
         "id": "16.2",
-        "question": "How can restaurants compete with delivery?",
+        "question": "According to the speaker, how can restaurants in general compete with online food delivery?",
         "options": [
-          "Lower prices",
-          "Specialised menus",
-          "Make customers feel valued"
+          "They should reduce prices significantly.",
+          "They should offer more specialised menus.",
+          "They should make customers feel valued and welcomed."
         ],
-        "answer": "Make customers feel valued"
+        "answer": "They should make customers feel valued and welcomed."
       },
       {
         "id": "17.1",
-        "question": "What does the reviewer say about the characters?",
+        "question": "What does the speaker say about the characters?",
         "options": [
-          "Hard to relate to",
-          "Too similar",
-          "Develop significantly"
+          "They are difficult to relate to.",
+          "They are too similar to one another.",
+          "They develop significantly throughout the story."
         ],
-        "answer": "Hard to relate to"
+        "answer": "They are difficult to relate to."
       },
       {
         "id": "17.2",
-        "question": "What does the reviewer say about the novel?",
+        "question": "What does the speaker say about the novel in general?",
         "options": [
-          "Succeeds despite flaws",
-          "Ambitious failure",
-          "Too familiar"
+          "It succeeds despite a number of flaws.",
+          "It is an ambitious failure.",
+          "It relies too heavily on familiar ideas."
         ],
-        "answer": "Ambitious failure"
+        "answer": "It is an ambitious failure."
       }
     ],
     "q14": {
@@ -2326,7 +2326,7 @@
     "mc": [
       {
         "id": "1",
-        "question": "What does the boy like to study?",
+        "question": "Listen to a boy talking to his mom. What does he like to study?",
         "options": [
           "Language",
           "Art",
@@ -2336,7 +2336,7 @@
       },
       {
         "id": "2",
-        "question": "Which country does the class study?",
+        "question": "Listen to a teacher talking to her students. Which country does the class study this term?",
         "options": [
           "Singapore",
           "America",
@@ -2346,153 +2346,153 @@
       },
       {
         "id": "3",
-        "question": "Where does Malik want to go?",
+        "question": "Malik is calling his friend. Where does Malik want to go?",
         "options": [
           "Library",
-          "Town hall",
+          "The town hall",
           "Bookshop"
         ],
-        "answer": "Town hall"
+        "answer": "The town hall"
       },
       {
         "id": "4",
-        "question": "When does the meeting start?",
+        "question": "Two colleagues are talking about a meeting. When does the meeting start?",
         "options": [
-          "10:15",
-          "09:45",
-          "10:30"
+          "At 10:15",
+          "At 09:45",
+          "At 10:30"
         ],
-        "answer": "10:15"
+        "answer": "At 10:15"
       },
       {
         "id": "5",
-        "question": "What does Lily usually do in the evening?",
+        "question": "Lily is calling her friend. What does she usually do in the evening?",
         "options": [
-          "Reads",
+          "Reads books",
           "Watches TV",
-          "Walks"
+          "Goes for a walk"
         ],
-        "answer": "Walks"
+        "answer": "Goes for a walk"
       },
       {
         "id": "6",
-        "question": "Why does Vincent call James?",
+        "question": "Listen to a voice message. Why does Vincent call James?",
         "options": [
-          "Ask for help",
-          "Notify change",
-          "Suggest a drink"
+          "To ask for help",
+          "To notify a change",
+          "To suggest a drink"
         ],
-        "answer": "Suggest a drink"
+        "answer": "To suggest a drink"
       },
       {
         "id": "7",
-        "question": "What does the family do most weekends?",
+        "question": "Listen to a woman talking. What does the family do most weekends?",
         "options": [
-          "Fishing",
-          "Bowling",
-          "Walking"
+          "Goes fishing",
+          "Goes bowling",
+          "Goes for a walk"
         ],
-        "answer": "Walking"
+        "answer": "Goes for a walk"
       },
       {
         "id": "8",
-        "question": "What is her favorite entertainment?",
+        "question": "Listen to a conversation. What is the woman’s favorite form of entertainment?",
         "options": [
-          "Music",
-          "Theater",
-          "Sports"
+          "Listening to music",
+          "Going to the theater",
+          "Playing sports"
         ],
-        "answer": "Theater"
+        "answer": "Going to the theater"
       },
       {
         "id": "9",
-        "question": "What is the main cause of poor air quality?",
+        "question": "Listen to a radio programme. What is the main cause of poor air quality?",
         "options": [
-          "Traffic",
-          "Heat",
-          "Countryside fires"
+          "Exhaust fumes from traffic",
+          "High temperatures during summer months",
+          "Fires in the countryside"
         ],
-        "answer": "Countryside fires"
+        "answer": "Fires in the countryside"
       },
       {
         "id": "10",
-        "question": "What does Mary ask her friend about?",
+        "question": "Listen to a voice message. What does Mary want to ask her friend about?",
         "options": [
-          "Repair location",
-          "Buy a new table",
-          "Donate furniture"
+          "Where to repair it",
+          "Where to buy a new table",
+          "Where to donate old furniture"
         ],
-        "answer": "Buy a new table"
+        "answer": "Where to buy a new table"
       },
       {
         "id": "11",
-        "question": "What day do the colleagues meet?",
+        "question": "Two colleagues are talking about a meeting. What day do they meet?",
         "options": [
-          "Tuesday",
-          "Wednesday",
-          "Monday"
+          "On Tuesday",
+          "On Wednesday",
+          "On Monday"
         ],
-        "answer": "Tuesday"
+        "answer": "On Tuesday"
       },
       {
         "id": "12",
-        "question": "When does the writer usually write?",
+        "question": "Listen to a writer talking. When does she usually write?",
         "options": [
-          "Morning",
-          "Afternoon",
-          "Evening"
+          "In the morning",
+          "In the afternoon",
+          "In the evening"
         ],
-        "answer": "Afternoon"
+        "answer": "In the afternoon"
       },
       {
         "id": "13",
-        "question": "What school facility will be added?",
+        "question": "Listen to a school principal. What new facility will be added?",
         "options": [
-          "Laboratory",
-          "Performance space",
-          "Library"
+          "a laboratory",
+          "a performance space",
+          "a library"
         ],
-        "answer": "Performance space"
+        "answer": "a performance space"
       },
       {
         "id": "16.1",
-        "question": "What does the reviewer say about the writing?",
+        "question": "What does the speaker say about the way the book is written?",
         "options": [
-          "Exciting",
-          "Highly scientific",
-          "Hard to follow"
+          "It is exciting to read.",
+          "It contains a large amount of scientific detail.",
+          "It is difficult to follow."
         ],
-        "answer": "Exciting"
+        "answer": "It is exciting to read."
       },
       {
         "id": "16.2",
-        "question": "What does the reviewer say about the book overall?",
+        "question": "What does the speaker say about the book overall?",
         "options": [
-          "For general audiences",
-          "For professionals",
-          "More science than story"
+          "It has been written for the general audience.",
+          "It is mainly intended for science professionals.",
+          "It focuses more on science than on storytelling."
         ],
-        "answer": "For general audiences"
+        "answer": "It has been written for the general audience."
       },
       {
         "id": "17.1",
-        "question": "What most helps people sleep well?",
+        "question": "According to the speaker, what is the most important thing that helps people sleep well?",
         "options": [
-          "Strict routine",
-          "Blocking noise and light",
-          "Avoiding devices"
+          "Following a strict bedtime routine.",
+          "Blocking noise and light.",
+          "Avoiding electronic devices before bed."
         ],
-        "answer": "Blocking noise and light"
+        "answer": "Blocking noise and light."
       },
       {
         "id": "17.2",
-        "question": "What does the expert say about sleep?",
+        "question": "What does the speaker say about the importance of sleep?",
         "options": [
-          "Media overemphasises it",
-          "Most people lack sleep",
-          "Science knows little"
+          "The media overemphasise the subject.",
+          "Most people do not get enough sleep.",
+          "Scientists still know very little about sleep."
         ],
-        "answer": "Media overemphasises it"
+        "answer": "The media overemphasise the subject."
       }
     ],
     "q14": {
