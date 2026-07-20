@@ -23,6 +23,11 @@ struct ContentView: View {
                 Label("Speaking", systemImage: "mic")
             }
 
+            RandomTabView()
+            .tabItem {
+                Label("Random", systemImage: "shuffle")
+            }
+
             AnswersTabView()
             .tabItem {
                 Label("Answers", systemImage: "checkmark.circle")

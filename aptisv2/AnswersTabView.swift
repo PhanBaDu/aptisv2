@@ -29,7 +29,12 @@ struct AnswersTabView: View {
                 ScrollView {
                     LazyVGrid(columns: columns, spacing: 12) {
                         ForEach(items, id: \.self) { item in
-                            if item == "Reading" {
+                            if item == "Listening" {
+                                NavigationLink(destination: ListeningAnswersListView()) {
+                                    AnswerCard(title: item)
+                                }
+                                .buttonStyle(.plain)
+                            } else if item == "Reading" {
                                 NavigationLink(destination: ReadingAnswersListView()) {
                                     AnswerCard(title: item)
                                 }
